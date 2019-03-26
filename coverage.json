@@ -1,0 +1,3603 @@
+{
+  "SourcePath": "/home/vitor/Projects/GitHub/Blog/blog/",
+  "HitsFile": "/home/vitor/Projects/GitHub/Blog/blog/coverage-hits.txt",
+  "ExtraAssemblies": [
+    "/home/vitor/Projects/GitHub/Blog/blog/blog.tests/bin/Debug/netcoreapp2.0/dotnet-minicover.dll"
+  ],
+  "Assemblies": [
+    {
+      "Name": "blog",
+      "SourceFiles": {
+        "blog/Controllers/ArticlesController.cs": {
+          "Instructions": [
+            {
+              "Id": 203,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 9,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.ArticlesController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController::.ctor(blog.Repositories.IArticleRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 204,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "blog.Controllers.ArticlesController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController::.ctor(blog.Repositories.IArticleRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 205,
+              "StartLine": 33,
+              "EndLine": 40,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.ArticlesController/<>c",
+              "Method": "<Search>b__2_1",
+              "MethodFullName": "blog.Model.ArticleModel blog.Controllers.ArticlesController/<>c::<Search>b__2_1(blog.Domain.Article)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.ArticleModel::.ctor()"
+            },
+            {
+              "Id": 206,
+              "StartLine": 33,
+              "EndLine": 40,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.ArticlesController/<>c",
+              "Method": "<Search>b__2_1",
+              "MethodFullName": "blog.Model.ArticleModel blog.Controllers.ArticlesController/<>c::<Search>b__2_1(blog.Domain.Article)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.ArticleModel::.ctor()"
+            },
+            {
+              "Id": 207,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 120,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
+            },
+            {
+              "Id": 208,
+              "StartLine": 31,
+              "EndLine": 41,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_0146: ldarg "
+            },
+            {
+              "Id": 209,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
+            },
+            {
+              "Id": 210,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 120,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
+            },
+            {
+              "Id": 211,
+              "StartLine": 31,
+              "EndLine": 41,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_0146: ldarg "
+            },
+            {
+              "Id": 212,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
+            },
+            {
+              "Id": 213,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 214,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0097: ldarg "
+            },
+            {
+              "Id": 215,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a7: ldarg "
+            },
+            {
+              "Id": 216,
+              "StartLine": 57,
+              "EndLine": 64,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b8: ldarg "
+            },
+            {
+              "Id": 217,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_011d: ldarg "
+            },
+            {
+              "Id": 218,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 219,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0097: ldarg "
+            },
+            {
+              "Id": 220,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a7: ldarg "
+            },
+            {
+              "Id": 221,
+              "StartLine": 57,
+              "EndLine": 64,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b8: ldarg "
+            },
+            {
+              "Id": 222,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_011d: ldarg "
+            },
+            {
+              "Id": 223,
+              "StartLine": 73,
+              "EndLine": 73,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 224,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 225,
+              "StartLine": 78,
+              "EndLine": 84,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 226,
+              "StartLine": 86,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0099: ldarg "
+            },
+            {
+              "Id": 227,
+              "StartLine": 88,
+              "EndLine": 88,
+              "StartColumn": 13,
+              "EndColumn": 63,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_010a: ldarg "
+            },
+            {
+              "Id": 228,
+              "StartLine": 73,
+              "EndLine": 73,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 229,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 230,
+              "StartLine": 78,
+              "EndLine": 84,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 231,
+              "StartLine": 86,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0099: ldarg "
+            },
+            {
+              "Id": 232,
+              "StartLine": 88,
+              "EndLine": 88,
+              "StartColumn": 13,
+              "EndColumn": 63,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_010a: ldarg "
+            },
+            {
+              "Id": 233,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 234,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 235,
+              "StartLine": 100,
+              "EndLine": 100,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 236,
+              "StartLine": 102,
+              "EndLine": 102,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 237,
+              "StartLine": 104,
+              "EndLine": 104,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 238,
+              "StartLine": 107,
+              "EndLine": 107,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 239,
+              "StartLine": 108,
+              "EndLine": 108,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0112: ldarg "
+            },
+            {
+              "Id": 240,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0129: ldarg "
+            },
+            {
+              "Id": 241,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_013a: ldarg "
+            },
+            {
+              "Id": 242,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0151: ldarg "
+            },
+            {
+              "Id": 243,
+              "StartLine": 114,
+              "EndLine": 114,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_01c2: ldarg "
+            },
+            {
+              "Id": 244,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 245,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 246,
+              "StartLine": 100,
+              "EndLine": 100,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 247,
+              "StartLine": 102,
+              "EndLine": 102,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 248,
+              "StartLine": 104,
+              "EndLine": 104,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 249,
+              "StartLine": 107,
+              "EndLine": 107,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 250,
+              "StartLine": 108,
+              "EndLine": 108,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0112: ldarg "
+            },
+            {
+              "Id": 251,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0129: ldarg "
+            },
+            {
+              "Id": 252,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_013a: ldarg "
+            },
+            {
+              "Id": 253,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0151: ldarg "
+            },
+            {
+              "Id": 254,
+              "StartLine": 114,
+              "EndLine": 114,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_01c2: ldarg "
+            },
+            {
+              "Id": 255,
+              "StartLine": 121,
+              "EndLine": 121,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 256,
+              "StartLine": 123,
+              "EndLine": 123,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 257,
+              "StartLine": 125,
+              "EndLine": 125,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 258,
+              "StartLine": 128,
+              "EndLine": 128,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 259,
+              "StartLine": 130,
+              "EndLine": 130,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_0133: ldarg "
+            },
+            {
+              "Id": 260,
+              "StartLine": 121,
+              "EndLine": 121,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 261,
+              "StartLine": 123,
+              "EndLine": 123,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 262,
+              "StartLine": 125,
+              "EndLine": 125,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 263,
+              "StartLine": 128,
+              "EndLine": 128,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 264,
+              "StartLine": 130,
+              "EndLine": 130,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.ArticlesController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_0133: ldarg "
+            }
+          ]
+        },
+        "blog/Controllers/CommentsController.cs": {
+          "Instructions": [
+            {
+              "Id": 265,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 9,
+              "EndColumn": 110,
+              "Class": "blog.Controllers.CommentsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController::.ctor(blog.Repositories.IArticleRepository,blog.Repositories.ICommentRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 266,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "blog.Controllers.CommentsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController::.ctor(blog.Repositories.IArticleRepository,blog.Repositories.ICommentRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 267,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "blog.Controllers.CommentsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController::.ctor(blog.Repositories.IArticleRepository,blog.Repositories.ICommentRepository)",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 268,
+              "StartLine": 41,
+              "EndLine": 49,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.CommentsController/<>c",
+              "Method": "<Get>b__3_0",
+              "MethodFullName": "blog.Model.CommentModel blog.Controllers.CommentsController/<>c::<Get>b__3_0(blog.Domain.Comment)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.CommentModel::.ctor()"
+            },
+            {
+              "Id": 269,
+              "StartLine": 41,
+              "EndLine": 49,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.CommentsController/<>c",
+              "Method": "<Get>b__3_0",
+              "MethodFullName": "blog.Model.CommentModel blog.Controllers.CommentsController/<>c::<Get>b__3_0(blog.Domain.Comment)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.CommentModel::.ctor()"
+            },
+            {
+              "Id": 270,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 271,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 272,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 273,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 274,
+              "StartLine": 39,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 275,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0193: ldarg "
+            },
+            {
+              "Id": 276,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 277,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 278,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
+            },
+            {
+              "Id": 279,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
+            },
+            {
+              "Id": 280,
+              "StartLine": 39,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 281,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0193: ldarg "
+            },
+            {
+              "Id": 282,
+              "StartLine": 59,
+              "EndLine": 59,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_004a: ldarg "
+            },
+            {
+              "Id": 283,
+              "StartLine": 61,
+              "EndLine": 61,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00d7: ldarg "
+            },
+            {
+              "Id": 284,
+              "StartLine": 63,
+              "EndLine": 63,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00e7: ldarg "
+            },
+            {
+              "Id": 285,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 125,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00f8: ldarg "
+            },
+            {
+              "Id": 286,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0244: ldarg "
+            },
+            {
+              "Id": 287,
+              "StartLine": 70,
+              "EndLine": 70,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0254: ldarg "
+            },
+            {
+              "Id": 288,
+              "StartLine": 73,
+              "EndLine": 81,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0265: ldarg "
+            },
+            {
+              "Id": 289,
+              "StartLine": 83,
+              "EndLine": 83,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02dc: ldarg "
+            },
+            {
+              "Id": 290,
+              "StartLine": 59,
+              "EndLine": 59,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_004a: ldarg "
+            },
+            {
+              "Id": 291,
+              "StartLine": 61,
+              "EndLine": 61,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00d7: ldarg "
+            },
+            {
+              "Id": 292,
+              "StartLine": 63,
+              "EndLine": 63,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00e7: ldarg "
+            },
+            {
+              "Id": 293,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 125,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00f8: ldarg "
+            },
+            {
+              "Id": 294,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0244: ldarg "
+            },
+            {
+              "Id": 295,
+              "StartLine": 70,
+              "EndLine": 70,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0254: ldarg "
+            },
+            {
+              "Id": 296,
+              "StartLine": 73,
+              "EndLine": 81,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0265: ldarg "
+            },
+            {
+              "Id": 297,
+              "StartLine": 83,
+              "EndLine": 83,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02dc: ldarg "
+            },
+            {
+              "Id": 298,
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 299,
+              "StartLine": 92,
+              "EndLine": 92,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 300,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 301,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 302,
+              "StartLine": 99,
+              "EndLine": 99,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 303,
+              "StartLine": 102,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 304,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_016c: ldarg "
+            },
+            {
+              "Id": 305,
+              "StartLine": 114,
+              "EndLine": 122,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_01e0: ldarg "
+            },
+            {
+              "Id": 306,
+              "StartLine": 124,
+              "EndLine": 124,
+              "StartColumn": 13,
+              "EndColumn": 83,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0257: ldarg "
+            },
+            {
+              "Id": 307,
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 308,
+              "StartLine": 92,
+              "EndLine": 92,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 309,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 310,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 311,
+              "StartLine": 99,
+              "EndLine": 99,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 312,
+              "StartLine": 102,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 313,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_016c: ldarg "
+            },
+            {
+              "Id": 314,
+              "StartLine": 114,
+              "EndLine": 122,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_01e0: ldarg "
+            },
+            {
+              "Id": 315,
+              "StartLine": 124,
+              "EndLine": 124,
+              "StartColumn": 13,
+              "EndColumn": 83,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0257: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/Article.cs": {
+          "Instructions": [
+            {
+              "Id": 101,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.Article",
+              "Method": "get_Title",
+              "MethodFullName": "System.String blog.Domain.Article::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 102,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.Article",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void blog.Domain.Article::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 103,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.Article",
+              "Method": "get_Content",
+              "MethodFullName": "System.String blog.Domain.Article::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 104,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Article",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void blog.Domain.Article::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 105,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.Article",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime blog.Domain.Article::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 106,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.Article",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void blog.Domain.Article::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 107,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.Article",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean blog.Domain.Article::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 108,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Article",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void blog.Domain.Article::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/ArticleTag.cs": {
+          "Instructions": [
+            {
+              "Id": 109,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Domain.ArticleTag::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 110,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Domain.ArticleTag::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 111,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 28,
+              "EndColumn": 32,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "get_TagId",
+              "MethodFullName": "System.Int32 blog.Domain.ArticleTag::get_TagId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 112,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "set_TagId",
+              "MethodFullName": "System.Void blog.Domain.ArticleTag::set_TagId(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 113,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "get_Tag",
+              "MethodFullName": "blog.Domain.Tag blog.Domain.ArticleTag::get_Tag()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 114,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "set_Tag",
+              "MethodFullName": "System.Void blog.Domain.ArticleTag::set_Tag(blog.Domain.Tag)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 115,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "get_IdArticle",
+              "MethodFullName": "System.Int32 blog.Domain.ArticleTag::get_IdArticle()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 116,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "set_IdArticle",
+              "MethodFullName": "System.Void blog.Domain.ArticleTag::set_IdArticle(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 117,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "get_Article",
+              "MethodFullName": "blog.Domain.Article blog.Domain.ArticleTag::get_Article()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 118,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 48,
+              "EndColumn": 52,
+              "Class": "blog.Domain.ArticleTag",
+              "Method": "set_Article",
+              "MethodFullName": "System.Void blog.Domain.ArticleTag::set_Article(blog.Domain.Article)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/Author.cs": {
+          "Instructions": [
+            {
+              "Id": 119,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.Author",
+              "Method": "get_Name",
+              "MethodFullName": "System.String blog.Domain.Author::get_Name()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 120,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.Author",
+              "Method": "set_Name",
+              "MethodFullName": "System.Void blog.Domain.Author::set_Name(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 121,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Author",
+              "Method": "get_Description",
+              "MethodFullName": "System.String blog.Domain.Author::get_Description()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 122,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "blog.Domain.Author",
+              "Method": "set_Description",
+              "MethodFullName": "System.Void blog.Domain.Author::set_Description(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 123,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.Author",
+              "Method": "get_MediaId",
+              "MethodFullName": "System.Nullable`1<System.Int32> blog.Domain.Author::get_MediaId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 124,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.Author",
+              "Method": "set_MediaId",
+              "MethodFullName": "System.Void blog.Domain.Author::set_MediaId(System.Nullable`1<System.Int32>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 125,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Author",
+              "Method": "get_Media",
+              "MethodFullName": "blog.Domain.Media blog.Domain.Author::get_Media()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 126,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "blog.Domain.Author",
+              "Method": "set_Media",
+              "MethodFullName": "System.Void blog.Domain.Author::set_Media(blog.Domain.Media)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/AuthorArticle.cs": {
+          "Instructions": [
+            {
+              "Id": 127,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Domain.AuthorArticle::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 128,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Domain.AuthorArticle::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 129,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "get_IdArticle",
+              "MethodFullName": "System.Int32 blog.Domain.AuthorArticle::get_IdArticle()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 130,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "set_IdArticle",
+              "MethodFullName": "System.Void blog.Domain.AuthorArticle::set_IdArticle(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 131,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "get_Article",
+              "MethodFullName": "blog.Domain.Article blog.Domain.AuthorArticle::get_Article()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 132,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "set_Article",
+              "MethodFullName": "System.Void blog.Domain.AuthorArticle::set_Article(blog.Domain.Article)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 133,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "get_IdAuthor",
+              "MethodFullName": "System.Int32 blog.Domain.AuthorArticle::get_IdAuthor()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 134,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "set_IdAuthor",
+              "MethodFullName": "System.Void blog.Domain.AuthorArticle::set_IdAuthor(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 135,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "get_Author",
+              "MethodFullName": "blog.Domain.Author blog.Domain.AuthorArticle::get_Author()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 136,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.AuthorArticle",
+              "Method": "set_Author",
+              "MethodFullName": "System.Void blog.Domain.AuthorArticle::set_Author(blog.Domain.Author)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/BaseEntity.cs": {
+          "Instructions": [
+            {
+              "Id": 137,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 26,
+              "EndColumn": 30,
+              "Class": "blog.Domain.BaseEntity",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Domain.BaseEntity::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 138,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.BaseEntity",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Domain.BaseEntity::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 139,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.BaseEntity",
+              "Method": "get_Created_At",
+              "MethodFullName": "System.DateTime blog.Domain.BaseEntity::get_Created_At()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 140,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "blog.Domain.BaseEntity",
+              "Method": "set_Created_At",
+              "MethodFullName": "System.Void blog.Domain.BaseEntity::set_Created_At(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 141,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.BaseEntity",
+              "Method": "get_Updated_At",
+              "MethodFullName": "System.DateTime blog.Domain.BaseEntity::get_Updated_At()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 142,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 43,
+              "EndColumn": 47,
+              "Class": "blog.Domain.BaseEntity",
+              "Method": "set_Updated_At",
+              "MethodFullName": "System.Void blog.Domain.BaseEntity::set_Updated_At(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/Category.cs": {
+          "Instructions": [
+            {
+              "Id": 143,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.Category",
+              "Method": "get_Name",
+              "MethodFullName": "System.String blog.Domain.Category::get_Name()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 144,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.Category",
+              "Method": "set_Name",
+              "MethodFullName": "System.Void blog.Domain.Category::set_Name(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 145,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.Category",
+              "Method": "get_Description",
+              "MethodFullName": "System.String blog.Domain.Category::get_Description()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 146,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "blog.Domain.Category",
+              "Method": "set_Description",
+              "MethodFullName": "System.Void blog.Domain.Category::set_Description(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/CategoryArticle.cs": {
+          "Instructions": [
+            {
+              "Id": 147,
+              "StartLine": 5,
+              "EndLine": 5,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Domain.CategoryArticle::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 148,
+              "StartLine": 5,
+              "EndLine": 5,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Domain.CategoryArticle::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 149,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "get_CategoryId",
+              "MethodFullName": "System.Int32 blog.Domain.CategoryArticle::get_CategoryId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 150,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "set_CategoryId",
+              "MethodFullName": "System.Void blog.Domain.CategoryArticle::set_CategoryId(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 151,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "get_Category",
+              "MethodFullName": "blog.Domain.Category blog.Domain.CategoryArticle::get_Category()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 152,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 41,
+              "EndColumn": 45,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "set_Category",
+              "MethodFullName": "System.Void blog.Domain.CategoryArticle::set_Category(blog.Domain.Category)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 153,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "get_IdArticle",
+              "MethodFullName": "System.Int32 blog.Domain.CategoryArticle::get_IdArticle()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 154,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "set_IdArticle",
+              "MethodFullName": "System.Void blog.Domain.CategoryArticle::set_IdArticle(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 155,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "get_Article",
+              "MethodFullName": "blog.Domain.Article blog.Domain.CategoryArticle::get_Article()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 156,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "blog.Domain.CategoryArticle",
+              "Method": "set_Article",
+              "MethodFullName": "System.Void blog.Domain.CategoryArticle::set_Article(blog.Domain.Article)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/Comment.cs": {
+          "Instructions": [
+            {
+              "Id": 157,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_ArticleId",
+              "MethodFullName": "System.Nullable`1<System.Int32> blog.Domain.Comment::get_ArticleId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 158,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_ArticleId",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_ArticleId(System.Nullable`1<System.Int32>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 159,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_Article",
+              "MethodFullName": "blog.Domain.Article blog.Domain.Comment::get_Article()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 160,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 47,
+              "EndColumn": 51,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_Article",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_Article(blog.Domain.Article)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 161,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_Email",
+              "MethodFullName": "System.String blog.Domain.Comment::get_Email()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 162,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_Email",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_Email(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 163,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_Title",
+              "MethodFullName": "System.String blog.Domain.Comment::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 164,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 165,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_Content",
+              "MethodFullName": "System.String blog.Domain.Comment::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 166,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 167,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime blog.Domain.Comment::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 168,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 169,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Domain.Comment",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean blog.Domain.Comment::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 170,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Domain.Comment",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void blog.Domain.Comment::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/Configuration.cs": {
+          "Instructions": [
+            {
+              "Id": 171,
+              "StartLine": 6,
+              "EndLine": 6,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.Configuration",
+              "Method": "get_Head",
+              "MethodFullName": "System.String blog.Domain.Configuration::get_Head()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 172,
+              "StartLine": 6,
+              "EndLine": 6,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.Configuration",
+              "Method": "set_Head",
+              "MethodFullName": "System.Void blog.Domain.Configuration::set_Head(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 173,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.Configuration",
+              "Method": "get_Body",
+              "MethodFullName": "System.String blog.Domain.Configuration::get_Body()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 174,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.Configuration",
+              "Method": "set_Body",
+              "MethodFullName": "System.Void blog.Domain.Configuration::set_Body(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 175,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.Configuration",
+              "Method": "get_Footer",
+              "MethodFullName": "System.String blog.Domain.Configuration::get_Footer()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 176,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.Configuration",
+              "Method": "set_Footer",
+              "MethodFullName": "System.Void blog.Domain.Configuration::set_Footer(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/CrossBlogDbContext.cs": {
+          "Instructions": [
+            {
+              "Id": 177,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "get_Articles",
+              "MethodFullName": "Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.Article> blog.Domain.CrossBlogDbContext::get_Articles()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 178,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 47,
+              "EndColumn": 51,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "set_Articles",
+              "MethodFullName": "System.Void blog.Domain.CrossBlogDbContext::set_Articles(Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.Article>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 179,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "get_Comments",
+              "MethodFullName": "Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.Comment> blog.Domain.CrossBlogDbContext::get_Comments()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 180,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 47,
+              "EndColumn": 51,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "set_Comments",
+              "MethodFullName": "System.Void blog.Domain.CrossBlogDbContext::set_Comments(Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.Comment>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 181,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 40,
+              "EndColumn": 44,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "get_Authors",
+              "MethodFullName": "Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.Author> blog.Domain.CrossBlogDbContext::get_Authors()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 182,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 45,
+              "EndColumn": 49,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "set_Authors",
+              "MethodFullName": "System.Void blog.Domain.CrossBlogDbContext::set_Authors(Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.Author>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 183,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 53,
+              "EndColumn": 57,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "get_AuthorArticle",
+              "MethodFullName": "Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.AuthorArticle> blog.Domain.CrossBlogDbContext::get_AuthorArticle()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 184,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 58,
+              "EndColumn": 62,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "set_AuthorArticle",
+              "MethodFullName": "System.Void blog.Domain.CrossBlogDbContext::set_AuthorArticle(Microsoft.EntityFrameworkCore.DbSet`1<blog.Domain.AuthorArticle>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 185,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 83,
+              "EndColumn": 96,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Domain.CrossBlogDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<blog.Domain.CrossBlogDbContext>)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 186,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 111,
+              "Class": "blog.Domain.CrossBlogDbContext",
+              "Method": "OnModelCreating",
+              "MethodFullName": "System.Void blog.Domain.CrossBlogDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)",
+              "Instruction": "IL_0001: ldarg modelBuilder"
+            }
+          ]
+        },
+        "blog/Domain/Media.cs": {
+          "Instructions": [
+            {
+              "Id": 187,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.Media",
+              "Method": "get_Path",
+              "MethodFullName": "System.String blog.Domain.Media::get_Path()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 188,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.Media",
+              "Method": "set_Path",
+              "MethodFullName": "System.Void blog.Domain.Media::set_Path(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 189,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.Media",
+              "Method": "get_Name",
+              "MethodFullName": "System.String blog.Domain.Media::get_Name()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 190,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.Media",
+              "Method": "set_Name",
+              "MethodFullName": "System.Void blog.Domain.Media::set_Name(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/MediaArticle.cs": {
+          "Instructions": [
+            {
+              "Id": 191,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Domain.MediaArticle::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 192,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Domain.MediaArticle::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 193,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "get_IdArticle",
+              "MethodFullName": "System.Int32 blog.Domain.MediaArticle::get_IdArticle()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 194,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "set_IdArticle",
+              "MethodFullName": "System.Void blog.Domain.MediaArticle::set_IdArticle(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 195,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "get_Article",
+              "MethodFullName": "blog.Domain.Article blog.Domain.MediaArticle::get_Article()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 196,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "set_Article",
+              "MethodFullName": "System.Void blog.Domain.MediaArticle::set_Article(blog.Domain.Article)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 197,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "get_IdMedia",
+              "MethodFullName": "System.Int32 blog.Domain.MediaArticle::get_IdMedia()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 198,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "set_IdMedia",
+              "MethodFullName": "System.Void blog.Domain.MediaArticle::set_IdMedia(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 199,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "get_Media",
+              "MethodFullName": "blog.Domain.Media blog.Domain.MediaArticle::get_Media()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 200,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "blog.Domain.MediaArticle",
+              "Method": "set_Media",
+              "MethodFullName": "System.Void blog.Domain.MediaArticle::set_Media(blog.Domain.Media)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Domain/Tag.cs": {
+          "Instructions": [
+            {
+              "Id": 201,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Domain.Tag",
+              "Method": "get_Name",
+              "MethodFullName": "System.String blog.Domain.Tag::get_Name()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 202,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Domain.Tag",
+              "Method": "set_Name",
+              "MethodFullName": "System.Void blog.Domain.Tag::set_Name(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Exceptions/HttpStatusCodeException.cs": {
+          "Instructions": [
+            {
+              "Id": 64,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": "get_StatusCode",
+              "MethodFullName": "System.Int32 blog.Exceptions.HttpStatusCodeException::get_StatusCode()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 65,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": "set_StatusCode",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::set_StatusCode(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 66,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": "get_ContentType",
+              "MethodFullName": "System.String blog.Exceptions.HttpStatusCodeException::get_ContentType()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 67,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": "set_ContentType",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::set_ContentType(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 68,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 51,
+              "EndColumn": 64,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 69,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 9,
+              "EndColumn": 55,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_000b: ldarg "
+            },
+            {
+              "Id": 70,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_0013: ldarg "
+            },
+            {
+              "Id": 71,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 51,
+              "EndColumn": 64,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 72,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 74,
+              "EndColumn": 87,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_000b: ldarg "
+            },
+            {
+              "Id": 73,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_0014: ldarg "
+            },
+            {
+              "Id": 74,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 75,
+              "EndColumn": 109,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.Exception)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 75,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 79,
+              "EndColumn": 119,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 76,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "blog.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)",
+              "Instruction": "IL_000f: ldarg "
+            }
+          ]
+        },
+        "blog/Exceptions/HttpStatusCodeExceptionMiddleware.cs": {
+          "Instructions": [
+            {
+              "Id": 77,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 9,
+              "EndColumn": 101,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 78,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 79,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 13,
+              "EndColumn": 146,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_001e: ldarg "
+            },
+            {
+              "Id": 80,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 17,
+              "EndColumn": 38,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 81,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_009d: stloc V_3"
+            },
+            {
+              "Id": 82,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 49,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00d2: ldarg "
+            },
+            {
+              "Id": 83,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 21,
+              "EndColumn": 131,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 84,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 27,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
+            },
+            {
+              "Id": 85,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 42,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_012a: ldarg "
+            },
+            {
+              "Id": 86,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 17,
+              "EndColumn": 61,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_013b: ldarg "
+            },
+            {
+              "Id": 87,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 88,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0173: ldarg "
+            },
+            {
+              "Id": 89,
+              "StartLine": 40,
+              "EndLine": 40,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_01f2: leave IL_0217"
+            },
+            {
+              "Id": 90,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 17,
+              "EndColumn": 38,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 91,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_009d: stloc V_3"
+            },
+            {
+              "Id": 92,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 49,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00d2: ldarg "
+            },
+            {
+              "Id": 93,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 21,
+              "EndColumn": 131,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 94,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 27,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
+            },
+            {
+              "Id": 95,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 42,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_012a: ldarg "
+            },
+            {
+              "Id": 96,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 17,
+              "EndColumn": 61,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_013b: ldarg "
+            },
+            {
+              "Id": 97,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 98,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0173: ldarg "
+            },
+            {
+              "Id": 99,
+              "StartLine": 40,
+              "EndLine": 40,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_01f2: leave IL_0217"
+            }
+          ]
+        },
+        "blog/Exceptions/HttpStatusCodeExceptionMiddlewareExtensions.cs": {
+          "Instructions": [
+            {
+              "Id": 100,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 79,
+              "Class": "blog.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions",
+              "Method": "UseHttpStatusCodeExceptionMiddleware",
+              "MethodFullName": "Microsoft.AspNetCore.Builder.IApplicationBuilder blog.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions::UseHttpStatusCodeExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)",
+              "Instruction": "IL_0001: ldarg builder"
+            }
+          ]
+        },
+        "blog/Model/ArticleListModel.cs": {
+          "Instructions": [
+            {
+              "Id": 38,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 53,
+              "EndColumn": 57,
+              "Class": "blog.Model.ArticleListModel",
+              "Method": "get_Articles",
+              "MethodFullName": "System.Collections.Generic.IEnumerable`1<blog.Model.ArticleModel> blog.Model.ArticleListModel::get_Articles()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 39,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 58,
+              "EndColumn": 62,
+              "Class": "blog.Model.ArticleListModel",
+              "Method": "set_Articles",
+              "MethodFullName": "System.Void blog.Model.ArticleListModel::set_Articles(System.Collections.Generic.IEnumerable`1<blog.Model.ArticleModel>)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Model/ArticleModel.cs": {
+          "Instructions": [
+            {
+              "Id": 40,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Model.ArticleModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 41,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Model.ArticleModel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 42,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "get_Title",
+              "MethodFullName": "System.String blog.Model.ArticleModel::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 43,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void blog.Model.ArticleModel::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 44,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "get_Content",
+              "MethodFullName": "System.String blog.Model.ArticleModel::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 45,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void blog.Model.ArticleModel::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 46,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime blog.Model.ArticleModel::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 47,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void blog.Model.ArticleModel::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 48,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean blog.Model.ArticleModel::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 49,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Model.ArticleModel",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void blog.Model.ArticleModel::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Model/CommentListModel.cs": {
+          "Instructions": [
+            {
+              "Id": 50,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 53,
+              "EndColumn": 57,
+              "Class": "blog.Model.CommentListModel",
+              "Method": "get_Comments",
+              "MethodFullName": "System.Collections.Generic.IEnumerable`1<blog.Model.CommentModel> blog.Model.CommentListModel::get_Comments()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 51,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 58,
+              "EndColumn": 62,
+              "Class": "blog.Model.CommentListModel",
+              "Method": "set_Comments",
+              "MethodFullName": "System.Void blog.Model.CommentListModel::set_Comments(System.Collections.Generic.IEnumerable`1<blog.Model.CommentModel>)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Model/CommentModel.cs": {
+          "Instructions": [
+            {
+              "Id": 52,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "blog.Model.CommentModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 blog.Model.CommentModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 53,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "blog.Model.CommentModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void blog.Model.CommentModel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 54,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Model.CommentModel",
+              "Method": "get_Email",
+              "MethodFullName": "System.String blog.Model.CommentModel::get_Email()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 55,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Model.CommentModel",
+              "Method": "set_Email",
+              "MethodFullName": "System.Void blog.Model.CommentModel::set_Email(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 56,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "blog.Model.CommentModel",
+              "Method": "get_Title",
+              "MethodFullName": "System.String blog.Model.CommentModel::get_Title()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 57,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "blog.Model.CommentModel",
+              "Method": "set_Title",
+              "MethodFullName": "System.Void blog.Model.CommentModel::set_Title(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 58,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Model.CommentModel",
+              "Method": "get_Content",
+              "MethodFullName": "System.String blog.Model.CommentModel::get_Content()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 59,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Model.CommentModel",
+              "Method": "set_Content",
+              "MethodFullName": "System.Void blog.Model.CommentModel::set_Content(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 60,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "blog.Model.CommentModel",
+              "Method": "get_Date",
+              "MethodFullName": "System.DateTime blog.Model.CommentModel::get_Date()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 61,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "blog.Model.CommentModel",
+              "Method": "set_Date",
+              "MethodFullName": "System.Void blog.Model.CommentModel::set_Date(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 62,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "blog.Model.CommentModel",
+              "Method": "get_Published",
+              "MethodFullName": "System.Boolean blog.Model.CommentModel::get_Published()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 63,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "blog.Model.CommentModel",
+              "Method": "set_Published",
+              "MethodFullName": "System.Void blog.Model.CommentModel::set_Published(System.Boolean)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/ArticleRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 1,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 63,
+              "Class": "blog.Repositories.ArticleRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.ArticleRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 2,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Repositories.ArticleRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.ArticleRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/AuthorRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 3,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 62,
+              "Class": "blog.Repositories.AuthorRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.AuthorRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 4,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Repositories.AuthorRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.AuthorRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/CategoryRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 5,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 64,
+              "Class": "blog.Repositories.CategoryRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.CategoryRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 6,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Repositories.CategoryRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.CategoryRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/CommentRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 7,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 63,
+              "Class": "blog.Repositories.CommentRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.CommentRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 8,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Repositories.CommentRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.CommentRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/GenericRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 9,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 51,
+              "EndColumn": 55,
+              "Class": "blog.Repositories.GenericRepository`1",
+              "Method": "get__dbContext",
+              "MethodFullName": "blog.Domain.CrossBlogDbContext blog.Repositories.GenericRepository`1::get__dbContext()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 10,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 56,
+              "EndColumn": 60,
+              "Class": "blog.Repositories.GenericRepository`1",
+              "Method": "set__dbContext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1::set__dbContext(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 11,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "blog.Repositories.GenericRepository`1",
+              "Method": "Query",
+              "MethodFullName": "System.Linq.IQueryable`1<T> blog.Repositories.GenericRepository`1::Query()",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 12,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "blog.Repositories.GenericRepository`1/<GetAsync>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<GetAsync>d__4::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 13,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "blog.Repositories.GenericRepository`1/<GetAsync>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<GetAsync>d__4::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 14,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 15,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 16,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_003e: ldarg "
+            },
+            {
+              "Id": 17,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_005a: ldarg "
+            },
+            {
+              "Id": 18,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 19,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 20,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_003e: ldarg "
+            },
+            {
+              "Id": 21,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_005a: ldarg "
+            },
+            {
+              "Id": 22,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 23,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "blog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 24,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0045: ldarg "
+            },
+            {
+              "Id": 25,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 26,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "blog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0028: ldarg "
+            },
+            {
+              "Id": 27,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_0045: ldarg "
+            },
+            {
+              "Id": 28,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "blog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 29,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "blog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_002f: ldarg "
+            },
+            {
+              "Id": 30,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_004c: ldarg "
+            },
+            {
+              "Id": 31,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "blog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 32,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "blog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_002f: ldarg "
+            },
+            {
+              "Id": 33,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Repositories.GenericRepository`1/<DeleteAsync>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()",
+              "Instruction": "IL_004c: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/MediaRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 34,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 61,
+              "Class": "blog.Repositories.MediaRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.MediaRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 35,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Repositories.MediaRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.MediaRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "blog/Repositories/TagRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 36,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 59,
+              "Class": "blog.Repositories.TagRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.TagRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 37,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Repositories.TagRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Repositories.TagRepository::.ctor(blog.Domain.CrossBlogDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        }
+      },
+      "Locations": [
+        {
+          "File": "/home/vitor/Projects/GitHub/Blog/blog/blog.tests/bin/Debug/netcoreapp2.0/blog.dll",
+          "BackupFile": "/home/vitor/Projects/GitHub/Blog/blog/blog.tests/bin/Debug/netcoreapp2.0/blog.uninstrumented.dll",
+          "PdbFile": "/home/vitor/Projects/GitHub/Blog/blog/blog.tests/bin/Debug/netcoreapp2.0/blog.pdb",
+          "BackupPdbFile": "/home/vitor/Projects/GitHub/Blog/blog/blog.tests/bin/Debug/netcoreapp2.0/blog.uninstrumented.pdb"
+        }
+      ]
+    }
+  ]
+}
