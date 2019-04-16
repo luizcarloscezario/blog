@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace blog.Domain
 {
-    public class AuthorArticle
+    public class AuthorArticle : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public int  IdArticle { get; set; }
 
         public Article Article { get; set; }
