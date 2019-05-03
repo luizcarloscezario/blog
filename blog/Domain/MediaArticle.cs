@@ -1,15 +1,13 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace blog.Domain
 {
     public class MediaArticle : BaseEntity
     {
-        public int IdArticle { get; set; }
-
+        [Required]
         public Article Article { get; set; }
-
-        public int IdMedia { get; set; }
-
+        [Required]
         public Media Media { get; set; }
     }
 }

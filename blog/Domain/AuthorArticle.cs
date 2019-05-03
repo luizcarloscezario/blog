@@ -1,15 +1,15 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace blog.Domain
 {
     public class AuthorArticle : BaseEntity
     {
-        public int  IdArticle { get; set; }
-
+        [Required]
         public Article Article { get; set; }
-        public int IdAuthor { get; set; }
-
+        
+        [Required]
         public Author Author { get; set; }
 
     }

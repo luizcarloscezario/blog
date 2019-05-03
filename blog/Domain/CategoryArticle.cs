@@ -1,13 +1,13 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace blog.Domain
 {
     public class CategoryArticle : BaseEntity
-    {
-        public int CategoryId { get; set; }
+    {        
+        [Required]
+        public Category Category { get; set; }        
 
-        public Category Category { get; set; }
-
-        public int IdArticle { get; set; }
-
+        [Required]
         public Article Article { get; set; }
         
     }

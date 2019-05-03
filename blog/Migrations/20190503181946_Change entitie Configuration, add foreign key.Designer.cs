@@ -11,9 +11,10 @@ using System;
 namespace blog.Migrations
 {
     [DbContext(typeof(CrossBlogDbContext))]
-    partial class BlogDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190503181946_Change entitie Configuration, add foreign key")]
+    partial class ChangeentitieConfigurationaddforeignkey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -70,6 +70,9 @@ namespace blog.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]ArticleModel model)
         {
+
+            Console.WriteLine("Teste de controller");
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
@@ -79,7 +82,7 @@ namespace blog.Controllers
             {
                 Title = model.Title,
                 Content = model.Content,
-                Date = model.Date,
+                Date = DateTime.Now,
                 Published = model.Published
             };
 

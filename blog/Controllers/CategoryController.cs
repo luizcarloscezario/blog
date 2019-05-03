@@ -24,9 +24,9 @@ namespace blog.Controllers
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
-        {
-            var categoy = await _repository.GetAsync(id);
-
+        {            
+            var  categoy = await _repository.GetAsync(id);                
+          
             if(categoy == null)
             {
                 return NotFound();

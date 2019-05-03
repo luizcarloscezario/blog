@@ -11,9 +11,10 @@ using System;
 namespace blog.Migrations
 {
     [DbContext(typeof(CrossBlogDbContext))]
-    partial class BlogDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190503172527_Change database, include news entities")]
+    partial class Changedatabaseincludenewsentities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -194,8 +195,6 @@ namespace blog.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("ArticleId");
-
                     b.Property<string>("Body");
 
                     b.Property<DateTime>("Created_At");
@@ -207,8 +206,6 @@ namespace blog.Migrations
                     b.Property<DateTime>("Updated_At");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
 
                     b.ToTable("Configurations");
                 });
@@ -325,14 +322,6 @@ namespace blog.Migrations
                         .WithMany()
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.SetNull);
-                });
-
-            modelBuilder.Entity("blog.Domain.Configuration", b =>
-                {
-                    b.HasOne("blog.Domain.Article", "Article")
-                        .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("blog.Domain.MediaArticle", b =>

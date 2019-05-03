@@ -35,6 +35,8 @@ namespace blog
 
             services.AddTransient<IArticleRepository, ArticleRepository>();
             services.AddTransient<ICommentRepository, CommentRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IAuthorRepository , AuthorRepository>();
 
             services.AddMvc();
         }

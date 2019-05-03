@@ -11,9 +11,10 @@ using System;
 namespace blog.Migrations
 {
     [DbContext(typeof(CrossBlogDbContext))]
-    partial class BlogDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190418221516_Include new entities")]
+    partial class Includenewentities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,28 +44,6 @@ namespace blog.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Articles");
-                });
-
-            modelBuilder.Entity("blog.Domain.ArticleTag", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("ArticleId");
-
-                    b.Property<DateTime>("Created_At");
-
-                    b.Property<int>("TagId");
-
-                    b.Property<DateTime>("Updated_At");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
-
-                    b.HasIndex("TagId");
-
-                    b.ToTable("ArticleTag");
                 });
 
             modelBuilder.Entity("blog.Domain.Author", b =>
@@ -97,11 +76,15 @@ namespace blog.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("ArticleId");
+                    b.Property<int?>("ArticleId");
 
-                    b.Property<int>("AuthorId");
+                    b.Property<int?>("AuthorId");
 
                     b.Property<DateTime>("Created_At");
+
+                    b.Property<int>("IdArticle");
+
+                    b.Property<int>("IdAuthor");
 
                     b.Property<DateTime>("Updated_At");
 
@@ -132,28 +115,6 @@ namespace blog.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-                });
-
-            modelBuilder.Entity("blog.Domain.CategoryArticle", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("ArticleId");
-
-                    b.Property<int>("CategoryId");
-
-                    b.Property<DateTime>("Created_At");
-
-                    b.Property<DateTime>("Updated_At");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("CategoryArticle");
                 });
 
             modelBuilder.Entity("blog.Domain.Comment", b =>
@@ -194,8 +155,6 @@ namespace blog.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("ArticleId");
-
                     b.Property<string>("Body");
 
                     b.Property<DateTime>("Created_At");
@@ -207,8 +166,6 @@ namespace blog.Migrations
                     b.Property<DateTime>("Updated_At");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
 
                     b.ToTable("Configurations");
                 });
@@ -233,28 +190,6 @@ namespace blog.Migrations
                     b.ToTable("Medias");
                 });
 
-            modelBuilder.Entity("blog.Domain.MediaArticle", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("ArticleId");
-
-                    b.Property<DateTime>("Created_At");
-
-                    b.Property<int>("MediaId");
-
-                    b.Property<DateTime>("Updated_At");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
-
-                    b.HasIndex("MediaId");
-
-                    b.ToTable("MediaArticle");
-                });
-
             modelBuilder.Entity("blog.Domain.Tag", b =>
                 {
                     b.Property<int>("Id")
@@ -273,19 +208,6 @@ namespace blog.Migrations
                     b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("blog.Domain.ArticleTag", b =>
-                {
-                    b.HasOne("blog.Domain.Article", "Article")
-                        .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("blog.Domain.Tag", "Tag")
-                        .WithMany()
-                        .HasForeignKey("TagId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
             modelBuilder.Entity("blog.Domain.Author", b =>
                 {
                     b.HasOne("blog.Domain.Media", "Media")
@@ -297,26 +219,11 @@ namespace blog.Migrations
                 {
                     b.HasOne("blog.Domain.Article", "Article")
                         .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("ArticleId");
 
                     b.HasOne("blog.Domain.Author", "Author")
                         .WithMany()
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("blog.Domain.CategoryArticle", b =>
-                {
-                    b.HasOne("blog.Domain.Article", "Article")
-                        .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("blog.Domain.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("AuthorId");
                 });
 
             modelBuilder.Entity("blog.Domain.Comment", b =>
@@ -325,27 +232,6 @@ namespace blog.Migrations
                         .WithMany()
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.SetNull);
-                });
-
-            modelBuilder.Entity("blog.Domain.Configuration", b =>
-                {
-                    b.HasOne("blog.Domain.Article", "Article")
-                        .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("blog.Domain.MediaArticle", b =>
-                {
-                    b.HasOne("blog.Domain.Article", "Article")
-                        .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("blog.Domain.Media", "Media")
-                        .WithMany()
-                        .HasForeignKey("MediaId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

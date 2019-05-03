@@ -1,3 +1,6 @@
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace blog.Domain
 {
     public class Configuration : BaseEntity
@@ -8,6 +11,14 @@ namespace blog.Domain
         public string Body { get; set; }
 
         public string Footer { get; set; }
-        
+
+        [Required]        
+        public int ArticleId { get; set; }
+
+        public Article Article { get; set; }
+
+        private class RequiredAttribute : Attribute
+        {
+        }
     }
 }
