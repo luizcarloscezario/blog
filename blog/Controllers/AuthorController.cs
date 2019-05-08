@@ -39,7 +39,7 @@ namespace blog.Controllers
                 Id = author.Id,
                 Name = author.Name,
                 Description = author.Description,
-                Media = author.Media.Name
+                Media = string.Empty
             };
             
             return Ok(result);

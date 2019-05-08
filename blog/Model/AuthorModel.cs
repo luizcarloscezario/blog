@@ -14,7 +14,6 @@ namespace blog.Model
         public string Description { get; set; }
 
         public string Media { get; set; }
-
         
     }
 }
