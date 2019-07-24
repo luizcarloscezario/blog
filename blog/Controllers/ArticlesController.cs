@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace blog.Controllers
 {
+    
     [Route("[controller]")]
     public class ArticlesController : Controller
     {
@@ -70,8 +71,6 @@ namespace blog.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]ArticleModel model)
         {
-
-            Console.WriteLine("Teste de controller");
 
             if (!ModelState.IsValid)
             {

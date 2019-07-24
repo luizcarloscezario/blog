@@ -14,3 +14,4 @@ WORKDIR /app/out
 ENV ASPNETCORE_ENVIRONMENT=Docker
 
 ENTRYPOINT ["./wait-for-it.sh", "db:3306", "-t", "60", "--", "dotnet", "blog.dll"]
+

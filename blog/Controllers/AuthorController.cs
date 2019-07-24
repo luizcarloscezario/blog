@@ -21,34 +21,13 @@ namespace blog.Controllers
         public AuthorController(IAuthorRepository repository)
         {
             _repository = repository;
-            
+
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get (int id)
+        public async Task<IActionResult> Get(int id)
         {
             var author = await _repository.GetAsync(id);
-
-            if(author == null)
-            {
-                return NotFound();
-            }   
-
-            var result = new AuthorModel
-            {
-                Id = author.Id,
-                Name = author.Name,
-                Description = author.Description,
-                Media = string.Empty
-            };
-            
-            return Ok(result);
-        }
-
-        [HttpGet("{search}")]
-        public async Task<IActionResult> Search(string search )
-        {
-            var author = await _repository.Query().Where(a => a.Name.Contains(search)).FirstOrDefaultAsync();
 
             if (author == null)
             {
@@ -60,7 +39,31 @@ namespace blog.Controllers
                 Id = author.Id,
                 Name = author.Name,
                 Description = author.Description,
-                Media = author.Media.Path
+                Media = string.Empty
+            };
+
+            return Ok(result);
+        }
+
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery]string search)
+        {
+            var author = await _repository.Query().Where(a => a.Name.ToLower().Contains(search.ToLower())).ToListAsync();
+
+            if (author == null)
+            {
+                return NotFound();
+            }
+
+            var result = new AuthorListModel
+            {
+                Authors = author.Select(a => new AuthorModel
+                {                                   
+                    Id = a.Id,
+                    Name = a.Name,
+                    Description = a.Description,
+                    Media = a.Media.Path
+                })
             };
 
             return Ok(result);
@@ -70,8 +73,8 @@ namespace blog.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]AuthorModel model)
         {
-
-            if(!ModelState.IsValid)
+            
+            if (!ModelState.IsValid || model == null )
             {
                 return BadRequest();
             }
@@ -80,11 +83,12 @@ namespace blog.Controllers
             {
                 Description = model.Description,
                 Name = model.Name
-            };            
+            };
 
             await _repository.InsertAsync(author);
 
-            return Ok(author);
+            return Created($"author/{author.Id}", author);
+            
         }
 
         [HttpPut]
@@ -92,12 +96,12 @@ namespace blog.Controllers
         {
             if (ModelState.IsValid)
             {
-                return BadRequest();                
+                return BadRequest();
             }
 
             var result = await _repository.GetAsync(id);
 
-            if(result == null)
+            if (result == null)
             {
                 return NotFound();
             }
@@ -107,7 +111,7 @@ namespace blog.Controllers
 
             await _repository.UpdateAsync(result);
 
-            return Ok(result);
+            return Accepted(model);
         }
 
         [HttpDelete("{id}")]
@@ -115,14 +119,14 @@ namespace blog.Controllers
         {
             var result = await _repository.GetAsync(id);
 
-            if(result == null)
+            if (result == null)
             {
                 return NotFound();
             }
 
             await _repository.DeleteAsync(id);
-
+            
             return Ok();
-        }         
+        }
     }
 }
