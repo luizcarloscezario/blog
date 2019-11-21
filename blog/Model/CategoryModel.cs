@@ -8,10 +8,12 @@ namespace blog.Model
     {         
         public int Id { get; set; }
 
-        [Required]
+       [Required(AllowEmptyStrings=false)]  
+       [DisplayFormat(ConvertEmptyStringToNull=false)] 
         public string Name { get; set; }
 
-        [Required]
+       [Required(AllowEmptyStrings=false)]
+       [DisplayFormat(ConvertEmptyStringToNull=false)]
         public string Description { get; set; }
     }
 }

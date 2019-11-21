@@ -9,6 +9,7 @@ namespace blog.Model
 
         [Required]
         [StringLength(255)]
+        [RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")]
         public string Email { get; set; }
 
         [Required]

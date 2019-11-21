@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using blog.Domain;
 using blog.Exceptions;
 using blog.Repositories;
+using blog.Infraestructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -37,6 +38,9 @@ namespace blog
             services.AddTransient<ICommentRepository, CommentRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IAuthorRepository , AuthorRepository>();
+            services.AddTransient<IMediaRepository, MediaRepository>();
+            services.AddTransient<IGoogleDriveManagement, GoogleDriveManagement>();
+            services.AddTransient<IMediaArticleRespository, MediaArticleRepository>();
 
             services.AddMvc();
         }

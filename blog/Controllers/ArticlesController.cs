@@ -85,7 +85,7 @@ namespace blog.Controllers
                 Published = model.Published
             };
 
-            await _articleRepository.InsertAsync(article);
+            await _articleRepository.InsertAsync(article); 
 
             return Created($"articles/{article.Id}", article);
         }

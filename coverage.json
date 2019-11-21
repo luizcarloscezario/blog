@@ -11,7 +11,7 @@
         "blog/Controllers/ArticlesController.cs": {
           "Instructions": [
             {
-              "Id": 213,
+              "Id": 215,
               "StartLine": 21,
               "EndLine": 21,
               "StartColumn": 9,
@@ -22,7 +22,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 214,
+              "Id": 216,
               "StartLine": 23,
               "EndLine": 23,
               "StartColumn": 13,
@@ -33,62 +33,29 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 215,
-              "StartLine": 34,
-              "EndLine": 41,
-              "StartColumn": 49,
-              "EndColumn": 18,
-              "Class": "blog.Controllers.ArticlesController/<>c",
-              "Method": "<Search>b__2_1",
-              "MethodFullName": "blog.Model.ArticleModel blog.Controllers.ArticlesController/<>c::<Search>b__2_1(blog.Domain.Article)",
-              "Instruction": "IL_0000: newobj System.Void blog.Model.ArticleModel::.ctor()"
-            },
-            {
-              "Id": 216,
-              "StartLine": 34,
-              "EndLine": 41,
-              "StartColumn": 49,
-              "EndColumn": 18,
-              "Class": "blog.Controllers.ArticlesController/<>c",
-              "Method": "<Search>b__2_1",
-              "MethodFullName": "blog.Model.ArticleModel blog.Controllers.ArticlesController/<>c::<Search>b__2_1(blog.Domain.Article)",
-              "Instruction": "IL_0000: newobj System.Void blog.Model.ArticleModel::.ctor()"
-            },
-            {
               "Id": 217,
-              "StartLine": 30,
-              "EndLine": 30,
-              "StartColumn": 13,
-              "EndColumn": 120,
-              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_002e: ldarg "
+              "StartLine": 34,
+              "EndLine": 41,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.ArticlesController/<>c",
+              "Method": "<Search>b__2_1",
+              "MethodFullName": "blog.Model.ArticleModel blog.Controllers.ArticlesController/<>c::<Search>b__2_1(blog.Domain.Article)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.ArticleModel::.ctor()"
             },
             {
               "Id": 218,
-              "StartLine": 32,
-              "EndLine": 42,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_0146: ldarg "
+              "StartLine": 34,
+              "EndLine": 41,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.ArticlesController/<>c",
+              "Method": "<Search>b__2_1",
+              "MethodFullName": "blog.Model.ArticleModel blog.Controllers.ArticlesController/<>c::<Search>b__2_1(blog.Domain.Article)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.ArticleModel::.ctor()"
             },
             {
               "Id": 219,
-              "StartLine": 44,
-              "EndLine": 44,
-              "StartColumn": 13,
-              "EndColumn": 31,
-              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
-              "Instruction": "IL_0182: ldarg "
-            },
-            {
-              "Id": 220,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 13,
@@ -99,7 +66,7 @@
               "Instruction": "IL_002e: ldarg "
             },
             {
-              "Id": 221,
+              "Id": 220,
               "StartLine": 32,
               "EndLine": 42,
               "StartColumn": 13,
@@ -110,7 +77,7 @@
               "Instruction": "IL_0146: ldarg "
             },
             {
-              "Id": 222,
+              "Id": 221,
               "StartLine": 44,
               "EndLine": 44,
               "StartColumn": 13,
@@ -121,62 +88,40 @@
               "Instruction": "IL_0182: ldarg "
             },
             {
-              "Id": 223,
-              "StartLine": 51,
-              "EndLine": 51,
+              "Id": 222,
+              "StartLine": 30,
+              "EndLine": 30,
               "StartColumn": 13,
-              "EndColumn": 65,
-              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "EndColumn": 120,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_000f: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
+            },
+            {
+              "Id": 223,
+              "StartLine": 32,
+              "EndLine": 42,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_0146: ldarg "
             },
             {
               "Id": 224,
-              "StartLine": 53,
-              "EndLine": 53,
+              "StartLine": 44,
+              "EndLine": 44,
               "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "EndColumn": 31,
+              "Class": "blog.Controllers.ArticlesController/<Search>d__2",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_0097: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Search>d__2::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
             },
             {
               "Id": 225,
-              "StartLine": 55,
-              "EndLine": 55,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_00a7: ldarg "
-            },
-            {
-              "Id": 226,
-              "StartLine": 58,
-              "EndLine": 65,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_00b8: ldarg "
-            },
-            {
-              "Id": 227,
-              "StartLine": 67,
-              "EndLine": 67,
-              "StartColumn": 13,
-              "EndColumn": 31,
-              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_011d: ldarg "
-            },
-            {
-              "Id": 228,
               "StartLine": 51,
               "EndLine": 51,
               "StartColumn": 13,
@@ -187,7 +132,7 @@
               "Instruction": "IL_000f: ldarg "
             },
             {
-              "Id": 229,
+              "Id": 226,
               "StartLine": 53,
               "EndLine": 53,
               "StartColumn": 13,
@@ -198,7 +143,7 @@
               "Instruction": "IL_0097: ldarg "
             },
             {
-              "Id": 230,
+              "Id": 227,
               "StartLine": 55,
               "EndLine": 55,
               "StartColumn": 17,
@@ -209,7 +154,7 @@
               "Instruction": "IL_00a7: ldarg "
             },
             {
-              "Id": 231,
+              "Id": 228,
               "StartLine": 58,
               "EndLine": 65,
               "StartColumn": 13,
@@ -220,7 +165,7 @@
               "Instruction": "IL_00b8: ldarg "
             },
             {
-              "Id": 232,
+              "Id": 229,
               "StartLine": 67,
               "EndLine": 67,
               "StartColumn": 13,
@@ -231,62 +176,62 @@
               "Instruction": "IL_011d: ldarg "
             },
             {
-              "Id": 233,
-              "StartLine": 75,
-              "EndLine": 75,
+              "Id": 230,
+              "StartLine": 51,
+              "EndLine": 51,
               "StartColumn": 13,
-              "EndColumn": 37,
-              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 231,
+              "StartLine": 53,
+              "EndLine": 53,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0097: ldarg "
+            },
+            {
+              "Id": 232,
+              "StartLine": 55,
+              "EndLine": 55,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a7: ldarg "
+            },
+            {
+              "Id": 233,
+              "StartLine": 58,
+              "EndLine": 65,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b8: ldarg "
             },
             {
               "Id": 234,
-              "StartLine": 77,
-              "EndLine": 77,
-              "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "StartLine": 67,
+              "EndLine": 67,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.ArticlesController/<Get>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_002a: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_011d: ldarg "
             },
             {
               "Id": 235,
-              "StartLine": 80,
-              "EndLine": 86,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0046: ldarg "
-            },
-            {
-              "Id": 236,
-              "StartLine": 88,
-              "EndLine": 88,
-              "StartColumn": 13,
-              "EndColumn": 59,
-              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0093: ldarg "
-            },
-            {
-              "Id": 237,
-              "StartLine": 90,
-              "EndLine": 90,
-              "StartColumn": 13,
-              "EndColumn": 63,
-              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0104: ldarg "
-            },
-            {
-              "Id": 238,
               "StartLine": 75,
               "EndLine": 75,
               "StartColumn": 13,
@@ -297,7 +242,7 @@
               "Instruction": "IL_0012: ldarg "
             },
             {
-              "Id": 239,
+              "Id": 236,
               "StartLine": 77,
               "EndLine": 77,
               "StartColumn": 17,
@@ -308,7 +253,7 @@
               "Instruction": "IL_002a: ldarg "
             },
             {
-              "Id": 240,
+              "Id": 237,
               "StartLine": 80,
               "EndLine": 86,
               "StartColumn": 13,
@@ -319,7 +264,7 @@
               "Instruction": "IL_0046: ldarg "
             },
             {
-              "Id": 241,
+              "Id": 238,
               "StartLine": 88,
               "EndLine": 88,
               "StartColumn": 13,
@@ -330,7 +275,7 @@
               "Instruction": "IL_0093: ldarg "
             },
             {
-              "Id": 242,
+              "Id": 239,
               "StartLine": 90,
               "EndLine": 90,
               "StartColumn": 13,
@@ -341,128 +286,62 @@
               "Instruction": "IL_0104: ldarg "
             },
             {
-              "Id": 243,
-              "StartLine": 97,
-              "EndLine": 97,
+              "Id": 240,
+              "StartLine": 75,
+              "EndLine": 75,
               "StartColumn": 13,
               "EndColumn": 37,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_001d: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 241,
+              "StartLine": 77,
+              "EndLine": 77,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 242,
+              "StartLine": 80,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 243,
+              "StartLine": 88,
+              "EndLine": 88,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0093: ldarg "
             },
             {
               "Id": 244,
-              "StartLine": 99,
-              "EndLine": 99,
-              "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 63,
+              "Class": "blog.Controllers.ArticlesController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0035: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
             },
             {
               "Id": 245,
-              "StartLine": 102,
-              "EndLine": 102,
-              "StartColumn": 13,
-              "EndColumn": 65,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0051: ldarg "
-            },
-            {
-              "Id": 246,
-              "StartLine": 104,
-              "EndLine": 104,
-              "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00da: ldarg "
-            },
-            {
-              "Id": 247,
-              "StartLine": 106,
-              "EndLine": 106,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00ea: ldarg "
-            },
-            {
-              "Id": 248,
-              "StartLine": 109,
-              "EndLine": 109,
-              "StartColumn": 13,
-              "EndColumn": 41,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00fb: ldarg "
-            },
-            {
-              "Id": 249,
-              "StartLine": 110,
-              "EndLine": 110,
-              "StartColumn": 13,
-              "EndColumn": 45,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0112: ldarg "
-            },
-            {
-              "Id": 250,
-              "StartLine": 111,
-              "EndLine": 111,
-              "StartColumn": 13,
-              "EndColumn": 44,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0129: ldarg "
-            },
-            {
-              "Id": 251,
-              "StartLine": 112,
-              "EndLine": 112,
-              "StartColumn": 13,
-              "EndColumn": 49,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_013a: ldarg "
-            },
-            {
-              "Id": 252,
-              "StartLine": 114,
-              "EndLine": 114,
-              "StartColumn": 13,
-              "EndColumn": 59,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0151: ldarg "
-            },
-            {
-              "Id": 253,
-              "StartLine": 116,
-              "EndLine": 116,
-              "StartColumn": 13,
-              "EndColumn": 32,
-              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_01c2: ldarg "
-            },
-            {
-              "Id": 254,
               "StartLine": 97,
               "EndLine": 97,
               "StartColumn": 13,
@@ -473,7 +352,7 @@
               "Instruction": "IL_001d: ldarg "
             },
             {
-              "Id": 255,
+              "Id": 246,
               "StartLine": 99,
               "EndLine": 99,
               "StartColumn": 17,
@@ -484,7 +363,7 @@
               "Instruction": "IL_0035: ldarg "
             },
             {
-              "Id": 256,
+              "Id": 247,
               "StartLine": 102,
               "EndLine": 102,
               "StartColumn": 13,
@@ -495,7 +374,7 @@
               "Instruction": "IL_0051: ldarg "
             },
             {
-              "Id": 257,
+              "Id": 248,
               "StartLine": 104,
               "EndLine": 104,
               "StartColumn": 13,
@@ -506,7 +385,7 @@
               "Instruction": "IL_00da: ldarg "
             },
             {
-              "Id": 258,
+              "Id": 249,
               "StartLine": 106,
               "EndLine": 106,
               "StartColumn": 17,
@@ -517,7 +396,7 @@
               "Instruction": "IL_00ea: ldarg "
             },
             {
-              "Id": 259,
+              "Id": 250,
               "StartLine": 109,
               "EndLine": 109,
               "StartColumn": 13,
@@ -528,7 +407,7 @@
               "Instruction": "IL_00fb: ldarg "
             },
             {
-              "Id": 260,
+              "Id": 251,
               "StartLine": 110,
               "EndLine": 110,
               "StartColumn": 13,
@@ -539,7 +418,7 @@
               "Instruction": "IL_0112: ldarg "
             },
             {
-              "Id": 261,
+              "Id": 252,
               "StartLine": 111,
               "EndLine": 111,
               "StartColumn": 13,
@@ -550,7 +429,7 @@
               "Instruction": "IL_0129: ldarg "
             },
             {
-              "Id": 262,
+              "Id": 253,
               "StartLine": 112,
               "EndLine": 112,
               "StartColumn": 13,
@@ -561,7 +440,7 @@
               "Instruction": "IL_013a: ldarg "
             },
             {
-              "Id": 263,
+              "Id": 254,
               "StartLine": 114,
               "EndLine": 114,
               "StartColumn": 13,
@@ -572,7 +451,7 @@
               "Instruction": "IL_0151: ldarg "
             },
             {
-              "Id": 264,
+              "Id": 255,
               "StartLine": 116,
               "EndLine": 116,
               "StartColumn": 13,
@@ -583,7 +462,128 @@
               "Instruction": "IL_01c2: ldarg "
             },
             {
+              "Id": 256,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 257,
+              "StartLine": 99,
+              "EndLine": 99,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 258,
+              "StartLine": 102,
+              "EndLine": 102,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 259,
+              "StartLine": 104,
+              "EndLine": 104,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 260,
+              "StartLine": 106,
+              "EndLine": 106,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 261,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
+              "Id": 262,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0112: ldarg "
+            },
+            {
+              "Id": 263,
+              "StartLine": 111,
+              "EndLine": 111,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0129: ldarg "
+            },
+            {
+              "Id": 264,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_013a: ldarg "
+            },
+            {
               "Id": 265,
+              "StartLine": 114,
+              "EndLine": 114,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0151: ldarg "
+            },
+            {
+              "Id": 266,
+              "StartLine": 116,
+              "EndLine": 116,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.ArticlesController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.ArticlesController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_01c2: ldarg "
+            },
+            {
+              "Id": 267,
               "StartLine": 123,
               "EndLine": 123,
               "StartColumn": 13,
@@ -594,7 +594,7 @@
               "Instruction": "IL_001a: ldarg "
             },
             {
-              "Id": 266,
+              "Id": 268,
               "StartLine": 125,
               "EndLine": 125,
               "StartColumn": 13,
@@ -605,7 +605,7 @@
               "Instruction": "IL_00a2: ldarg "
             },
             {
-              "Id": 267,
+              "Id": 269,
               "StartLine": 127,
               "EndLine": 127,
               "StartColumn": 17,
@@ -616,7 +616,7 @@
               "Instruction": "IL_00b2: ldarg "
             },
             {
-              "Id": 268,
+              "Id": 270,
               "StartLine": 130,
               "EndLine": 130,
               "StartColumn": 13,
@@ -627,7 +627,7 @@
               "Instruction": "IL_00c3: ldarg "
             },
             {
-              "Id": 269,
+              "Id": 271,
               "StartLine": 132,
               "EndLine": 132,
               "StartColumn": 13,
@@ -638,7 +638,7 @@
               "Instruction": "IL_0133: ldarg "
             },
             {
-              "Id": 270,
+              "Id": 272,
               "StartLine": 123,
               "EndLine": 123,
               "StartColumn": 13,
@@ -649,7 +649,7 @@
               "Instruction": "IL_001a: ldarg "
             },
             {
-              "Id": 271,
+              "Id": 273,
               "StartLine": 125,
               "EndLine": 125,
               "StartColumn": 13,
@@ -660,7 +660,7 @@
               "Instruction": "IL_00a2: ldarg "
             },
             {
-              "Id": 272,
+              "Id": 274,
               "StartLine": 127,
               "EndLine": 127,
               "StartColumn": 17,
@@ -671,7 +671,7 @@
               "Instruction": "IL_00b2: ldarg "
             },
             {
-              "Id": 273,
+              "Id": 275,
               "StartLine": 130,
               "EndLine": 130,
               "StartColumn": 13,
@@ -682,7 +682,7 @@
               "Instruction": "IL_00c3: ldarg "
             },
             {
-              "Id": 274,
+              "Id": 276,
               "StartLine": 132,
               "EndLine": 132,
               "StartColumn": 13,
@@ -697,7 +697,7 @@
         "blog/Controllers/AuthorController.cs": {
           "Instructions": [
             {
-              "Id": 275,
+              "Id": 277,
               "StartLine": 21,
               "EndLine": 21,
               "StartColumn": 9,
@@ -708,7 +708,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 276,
+              "Id": 278,
               "StartLine": 23,
               "EndLine": 23,
               "StartColumn": 13,
@@ -719,7 +719,7 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 277,
+              "Id": 279,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 13,
@@ -728,64 +728,9 @@
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
               "Instruction": "IL_000f: ldarg "
-            },
-            {
-              "Id": 278,
-              "StartLine": 32,
-              "EndLine": 32,
-              "StartColumn": 13,
-              "EndColumn": 32,
-              "Class": "blog.Controllers.AuthorController/<Get>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
-              "Instruction": "IL_0097: ldarg "
-            },
-            {
-              "Id": 279,
-              "StartLine": 34,
-              "EndLine": 34,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.AuthorController/<Get>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
-              "Instruction": "IL_00a7: ldarg "
             },
             {
               "Id": 280,
-              "StartLine": 37,
-              "EndLine": 43,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.AuthorController/<Get>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
-              "Instruction": "IL_00b5: ldarg "
-            },
-            {
-              "Id": 281,
-              "StartLine": 45,
-              "EndLine": 45,
-              "StartColumn": 13,
-              "EndColumn": 31,
-              "Class": "blog.Controllers.AuthorController/<Get>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
-              "Instruction": "IL_0102: ldarg "
-            },
-            {
-              "Id": 282,
-              "StartLine": 30,
-              "EndLine": 30,
-              "StartColumn": 13,
-              "EndColumn": 57,
-              "Class": "blog.Controllers.AuthorController/<Get>d__2",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
-              "Instruction": "IL_000f: ldarg "
-            },
-            {
-              "Id": 283,
               "StartLine": 32,
               "EndLine": 32,
               "StartColumn": 13,
@@ -796,7 +741,7 @@
               "Instruction": "IL_0097: ldarg "
             },
             {
-              "Id": 284,
+              "Id": 281,
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 17,
@@ -807,7 +752,7 @@
               "Instruction": "IL_00a7: ldarg "
             },
             {
-              "Id": 285,
+              "Id": 282,
               "StartLine": 37,
               "EndLine": 43,
               "StartColumn": 13,
@@ -818,7 +763,7 @@
               "Instruction": "IL_00b5: ldarg "
             },
             {
-              "Id": 286,
+              "Id": 283,
               "StartLine": 45,
               "EndLine": 45,
               "StartColumn": 13,
@@ -829,18 +774,62 @@
               "Instruction": "IL_0102: ldarg "
             },
             {
+              "Id": 284,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 57,
+              "Class": "blog.Controllers.AuthorController/<Get>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 285,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.AuthorController/<Get>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
+              "Instruction": "IL_0097: ldarg "
+            },
+            {
+              "Id": 286,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.AuthorController/<Get>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
+              "Instruction": "IL_00a7: ldarg "
+            },
+            {
               "Id": 287,
-              "StartLine": 60,
-              "EndLine": 66,
-              "StartColumn": 46,
-              "EndColumn": 18,
-              "Class": "blog.Controllers.AuthorController/<>c",
-              "Method": "<Search>b__3_1",
-              "MethodFullName": "blog.Model.AuthorModel blog.Controllers.AuthorController/<>c::<Search>b__3_1(blog.Domain.Author)",
-              "Instruction": "IL_0000: newobj System.Void blog.Model.AuthorModel::.ctor()"
+              "StartLine": 37,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.AuthorController/<Get>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
+              "Instruction": "IL_00b5: ldarg "
             },
             {
               "Id": 288,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.AuthorController/<Get>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Get>d__2::MoveNext()",
+              "Instruction": "IL_0102: ldarg "
+            },
+            {
+              "Id": 289,
               "StartLine": 60,
               "EndLine": 66,
               "StartColumn": 46,
@@ -851,62 +840,18 @@
               "Instruction": "IL_0000: newobj System.Void blog.Model.AuthorModel::.ctor()"
             },
             {
-              "Id": 289,
-              "StartLine": 51,
-              "EndLine": 51,
-              "StartColumn": 13,
-              "EndColumn": 122,
-              "Class": "blog.Controllers.AuthorController/<Search>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
-              "Instruction": "IL_002e: ldarg "
-            },
-            {
               "Id": 290,
-              "StartLine": 53,
-              "EndLine": 53,
-              "StartColumn": 13,
-              "EndColumn": 32,
-              "Class": "blog.Controllers.AuthorController/<Search>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
-              "Instruction": "IL_0171: ldarg "
+              "StartLine": 60,
+              "EndLine": 66,
+              "StartColumn": 46,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.AuthorController/<>c",
+              "Method": "<Search>b__3_1",
+              "MethodFullName": "blog.Model.AuthorModel blog.Controllers.AuthorController/<>c::<Search>b__3_1(blog.Domain.Author)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.AuthorModel::.ctor()"
             },
             {
               "Id": 291,
-              "StartLine": 55,
-              "EndLine": 55,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.AuthorController/<Search>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
-              "Instruction": "IL_0181: ldarg "
-            },
-            {
-              "Id": 292,
-              "StartLine": 58,
-              "EndLine": 67,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.AuthorController/<Search>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
-              "Instruction": "IL_018f: ldarg "
-            },
-            {
-              "Id": 293,
-              "StartLine": 69,
-              "EndLine": 69,
-              "StartColumn": 13,
-              "EndColumn": 31,
-              "Class": "blog.Controllers.AuthorController/<Search>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
-              "Instruction": "IL_01cb: ldarg "
-            },
-            {
-              "Id": 294,
               "StartLine": 51,
               "EndLine": 51,
               "StartColumn": 13,
@@ -917,7 +862,7 @@
               "Instruction": "IL_002e: ldarg "
             },
             {
-              "Id": 295,
+              "Id": 292,
               "StartLine": 53,
               "EndLine": 53,
               "StartColumn": 13,
@@ -928,7 +873,7 @@
               "Instruction": "IL_0171: ldarg "
             },
             {
-              "Id": 296,
+              "Id": 293,
               "StartLine": 55,
               "EndLine": 55,
               "StartColumn": 17,
@@ -939,7 +884,7 @@
               "Instruction": "IL_0181: ldarg "
             },
             {
-              "Id": 297,
+              "Id": 294,
               "StartLine": 58,
               "EndLine": 67,
               "StartColumn": 13,
@@ -950,7 +895,7 @@
               "Instruction": "IL_018f: ldarg "
             },
             {
-              "Id": 298,
+              "Id": 295,
               "StartLine": 69,
               "EndLine": 69,
               "StartColumn": 13,
@@ -961,62 +906,62 @@
               "Instruction": "IL_01cb: ldarg "
             },
             {
-              "Id": 299,
-              "StartLine": 77,
-              "EndLine": 77,
+              "Id": 296,
+              "StartLine": 51,
+              "EndLine": 51,
               "StartColumn": 13,
-              "EndColumn": 55,
-              "Class": "blog.Controllers.AuthorController/<Post>d__4",
+              "EndColumn": 122,
+              "Class": "blog.Controllers.AuthorController/<Search>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
+            },
+            {
+              "Id": 297,
+              "StartLine": 53,
+              "EndLine": 53,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.AuthorController/<Search>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
+              "Instruction": "IL_0171: ldarg "
+            },
+            {
+              "Id": 298,
+              "StartLine": 55,
+              "EndLine": 55,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.AuthorController/<Search>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
+              "Instruction": "IL_0181: ldarg "
+            },
+            {
+              "Id": 299,
+              "StartLine": 58,
+              "EndLine": 67,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.AuthorController/<Search>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
+              "Instruction": "IL_018f: ldarg "
             },
             {
               "Id": 300,
-              "StartLine": 79,
-              "EndLine": 79,
-              "StartColumn": 17,
-              "EndColumn": 37,
-              "Class": "blog.Controllers.AuthorController/<Post>d__4",
+              "StartLine": 69,
+              "EndLine": 69,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "blog.Controllers.AuthorController/<Search>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0035: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Search>d__3::MoveNext()",
+              "Instruction": "IL_01cb: ldarg "
             },
             {
               "Id": 301,
-              "StartLine": 82,
-              "EndLine": 86,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.AuthorController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0046: ldarg "
-            },
-            {
-              "Id": 302,
-              "StartLine": 88,
-              "EndLine": 88,
-              "StartColumn": 13,
-              "EndColumn": 51,
-              "Class": "blog.Controllers.AuthorController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0075: ldarg "
-            },
-            {
-              "Id": 303,
-              "StartLine": 90,
-              "EndLine": 90,
-              "StartColumn": 13,
-              "EndColumn": 59,
-              "Class": "blog.Controllers.AuthorController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_00e6: ldarg "
-            },
-            {
-              "Id": 304,
               "StartLine": 77,
               "EndLine": 77,
               "StartColumn": 13,
@@ -1027,7 +972,7 @@
               "Instruction": "IL_0012: ldarg "
             },
             {
-              "Id": 305,
+              "Id": 302,
               "StartLine": 79,
               "EndLine": 79,
               "StartColumn": 17,
@@ -1038,7 +983,7 @@
               "Instruction": "IL_0035: ldarg "
             },
             {
-              "Id": 306,
+              "Id": 303,
               "StartLine": 82,
               "EndLine": 86,
               "StartColumn": 13,
@@ -1049,7 +994,7 @@
               "Instruction": "IL_0046: ldarg "
             },
             {
-              "Id": 307,
+              "Id": 304,
               "StartLine": 88,
               "EndLine": 88,
               "StartColumn": 13,
@@ -1060,7 +1005,7 @@
               "Instruction": "IL_0075: ldarg "
             },
             {
-              "Id": 308,
+              "Id": 305,
               "StartLine": 90,
               "EndLine": 90,
               "StartColumn": 13,
@@ -1071,106 +1016,62 @@
               "Instruction": "IL_00e6: ldarg "
             },
             {
-              "Id": 309,
-              "StartLine": 97,
-              "EndLine": 97,
+              "Id": 306,
+              "StartLine": 77,
+              "EndLine": 77,
               "StartColumn": 13,
-              "EndColumn": 36,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "EndColumn": 55,
+              "Class": "blog.Controllers.AuthorController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_001a: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 307,
+              "StartLine": 79,
+              "EndLine": 79,
+              "StartColumn": 17,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.AuthorController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 308,
+              "StartLine": 82,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.AuthorController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 309,
+              "StartLine": 88,
+              "EndLine": 88,
+              "StartColumn": 13,
+              "EndColumn": 51,
+              "Class": "blog.Controllers.AuthorController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0075: ldarg "
             },
             {
               "Id": 310,
-              "StartLine": 99,
-              "EndLine": 99,
-              "StartColumn": 17,
-              "EndColumn": 37,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.AuthorController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_002f: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_00e6: ldarg "
             },
             {
               "Id": 311,
-              "StartLine": 102,
-              "EndLine": 102,
-              "StartColumn": 13,
-              "EndColumn": 57,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0040: ldarg "
-            },
-            {
-              "Id": 312,
-              "StartLine": 104,
-              "EndLine": 104,
-              "StartColumn": 13,
-              "EndColumn": 32,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00c9: ldarg "
-            },
-            {
-              "Id": 313,
-              "StartLine": 106,
-              "EndLine": 106,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00d9: ldarg "
-            },
-            {
-              "Id": 314,
-              "StartLine": 109,
-              "EndLine": 109,
-              "StartColumn": 13,
-              "EndColumn": 38,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00ea: ldarg "
-            },
-            {
-              "Id": 315,
-              "StartLine": 110,
-              "EndLine": 110,
-              "StartColumn": 13,
-              "EndColumn": 52,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0101: ldarg "
-            },
-            {
-              "Id": 316,
-              "StartLine": 112,
-              "EndLine": 112,
-              "StartColumn": 13,
-              "EndColumn": 51,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0118: ldarg "
-            },
-            {
-              "Id": 317,
-              "StartLine": 114,
-              "EndLine": 114,
-              "StartColumn": 13,
-              "EndColumn": 36,
-              "Class": "blog.Controllers.AuthorController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0189: ldarg "
-            },
-            {
-              "Id": 318,
               "StartLine": 97,
               "EndLine": 97,
               "StartColumn": 13,
@@ -1181,7 +1082,7 @@
               "Instruction": "IL_001a: ldarg "
             },
             {
-              "Id": 319,
+              "Id": 312,
               "StartLine": 99,
               "EndLine": 99,
               "StartColumn": 17,
@@ -1192,7 +1093,7 @@
               "Instruction": "IL_002f: ldarg "
             },
             {
-              "Id": 320,
+              "Id": 313,
               "StartLine": 102,
               "EndLine": 102,
               "StartColumn": 13,
@@ -1203,7 +1104,7 @@
               "Instruction": "IL_0040: ldarg "
             },
             {
-              "Id": 321,
+              "Id": 314,
               "StartLine": 104,
               "EndLine": 104,
               "StartColumn": 13,
@@ -1214,7 +1115,7 @@
               "Instruction": "IL_00c9: ldarg "
             },
             {
-              "Id": 322,
+              "Id": 315,
               "StartLine": 106,
               "EndLine": 106,
               "StartColumn": 17,
@@ -1225,7 +1126,7 @@
               "Instruction": "IL_00d9: ldarg "
             },
             {
-              "Id": 323,
+              "Id": 316,
               "StartLine": 109,
               "EndLine": 109,
               "StartColumn": 13,
@@ -1236,7 +1137,7 @@
               "Instruction": "IL_00ea: ldarg "
             },
             {
-              "Id": 324,
+              "Id": 317,
               "StartLine": 110,
               "EndLine": 110,
               "StartColumn": 13,
@@ -1247,7 +1148,7 @@
               "Instruction": "IL_0101: ldarg "
             },
             {
-              "Id": 325,
+              "Id": 318,
               "StartLine": 112,
               "EndLine": 112,
               "StartColumn": 13,
@@ -1258,7 +1159,7 @@
               "Instruction": "IL_0118: ldarg "
             },
             {
-              "Id": 326,
+              "Id": 319,
               "StartLine": 114,
               "EndLine": 114,
               "StartColumn": 13,
@@ -1269,7 +1170,106 @@
               "Instruction": "IL_0189: ldarg "
             },
             {
+              "Id": 320,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 321,
+              "StartLine": 99,
+              "EndLine": 99,
+              "StartColumn": 17,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_002f: ldarg "
+            },
+            {
+              "Id": 322,
+              "StartLine": 102,
+              "EndLine": 102,
+              "StartColumn": 13,
+              "EndColumn": 57,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0040: ldarg "
+            },
+            {
+              "Id": 323,
+              "StartLine": 104,
+              "EndLine": 104,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00c9: ldarg "
+            },
+            {
+              "Id": 324,
+              "StartLine": 106,
+              "EndLine": 106,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00d9: ldarg "
+            },
+            {
+              "Id": 325,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 38,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 326,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0101: ldarg "
+            },
+            {
               "Id": 327,
+              "StartLine": 112,
+              "EndLine": 112,
+              "StartColumn": 13,
+              "EndColumn": 51,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0118: ldarg "
+            },
+            {
+              "Id": 328,
+              "StartLine": 114,
+              "EndLine": 114,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "blog.Controllers.AuthorController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.AuthorController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0189: ldarg "
+            },
+            {
+              "Id": 329,
               "StartLine": 120,
               "EndLine": 120,
               "StartColumn": 13,
@@ -1280,7 +1280,7 @@
               "Instruction": "IL_001a: ldarg "
             },
             {
-              "Id": 328,
+              "Id": 330,
               "StartLine": 122,
               "EndLine": 122,
               "StartColumn": 13,
@@ -1291,7 +1291,7 @@
               "Instruction": "IL_00a2: ldarg "
             },
             {
-              "Id": 329,
+              "Id": 331,
               "StartLine": 124,
               "EndLine": 124,
               "StartColumn": 17,
@@ -1302,7 +1302,7 @@
               "Instruction": "IL_00b2: ldarg "
             },
             {
-              "Id": 330,
+              "Id": 332,
               "StartLine": 127,
               "EndLine": 127,
               "StartColumn": 13,
@@ -1313,7 +1313,7 @@
               "Instruction": "IL_00c3: ldarg "
             },
             {
-              "Id": 331,
+              "Id": 333,
               "StartLine": 129,
               "EndLine": 129,
               "StartColumn": 13,
@@ -1324,7 +1324,7 @@
               "Instruction": "IL_0133: ldarg "
             },
             {
-              "Id": 332,
+              "Id": 334,
               "StartLine": 120,
               "EndLine": 120,
               "StartColumn": 13,
@@ -1335,7 +1335,7 @@
               "Instruction": "IL_001a: ldarg "
             },
             {
-              "Id": 333,
+              "Id": 335,
               "StartLine": 122,
               "EndLine": 122,
               "StartColumn": 13,
@@ -1346,7 +1346,7 @@
               "Instruction": "IL_00a2: ldarg "
             },
             {
-              "Id": 334,
+              "Id": 336,
               "StartLine": 124,
               "EndLine": 124,
               "StartColumn": 17,
@@ -1357,7 +1357,7 @@
               "Instruction": "IL_00b2: ldarg "
             },
             {
-              "Id": 335,
+              "Id": 337,
               "StartLine": 127,
               "EndLine": 127,
               "StartColumn": 13,
@@ -1368,7 +1368,7 @@
               "Instruction": "IL_00c3: ldarg "
             },
             {
-              "Id": 336,
+              "Id": 338,
               "StartLine": 129,
               "EndLine": 129,
               "StartColumn": 13,
@@ -1383,7 +1383,7 @@
         "blog/Controllers/CategoryController.cs": {
           "Instructions": [
             {
-              "Id": 337,
+              "Id": 339,
               "StartLine": 20,
               "EndLine": 20,
               "StartColumn": 9,
@@ -1394,7 +1394,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 338,
+              "Id": 340,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 13,
@@ -1403,28 +1403,6 @@
               "Method": ".ctor",
               "MethodFullName": "System.Void blog.Controllers.CategoryController::.ctor(blog.Repositories.ICategoryRepository)",
               "Instruction": "IL_0008: ldarg "
-            },
-            {
-              "Id": 339,
-              "StartLine": 48,
-              "EndLine": 48,
-              "StartColumn": 13,
-              "EndColumn": 63,
-              "Class": "blog.Controllers.CategoryController",
-              "Method": "GetAll",
-              "MethodFullName": "Microsoft.AspNetCore.Mvc.IActionResult blog.Controllers.CategoryController::GetAll()",
-              "Instruction": "IL_0001: ldarg "
-            },
-            {
-              "Id": 340,
-              "StartLine": 49,
-              "EndLine": 49,
-              "StartColumn": 13,
-              "EndColumn": 38,
-              "Class": "blog.Controllers.CategoryController",
-              "Method": "GetAll",
-              "MethodFullName": "Microsoft.AspNetCore.Mvc.IActionResult blog.Controllers.CategoryController::GetAll()",
-              "Instruction": "IL_0012: ldarg "
             },
             {
               "Id": 341,
@@ -1538,61 +1516,50 @@
             },
             {
               "Id": 351,
-              "StartLine": 57,
-              "EndLine": 57,
-              "StartColumn": 12,
-              "EndColumn": 36,
-              "Class": "blog.Controllers.CategoryController/<Post>d__4",
+              "StartLine": 48,
+              "EndLine": 48,
+              "StartColumn": 13,
+              "EndColumn": 74,
+              "Class": "blog.Controllers.CategoryController/<GetAll>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<GetAll>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
             },
             {
               "Id": 352,
-              "StartLine": 59,
-              "EndLine": 59,
-              "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "blog.Controllers.CategoryController/<Post>d__4",
+              "StartLine": 49,
+              "EndLine": 49,
+              "StartColumn": 13,
+              "EndColumn": 38,
+              "Class": "blog.Controllers.CategoryController/<GetAll>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_002a: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<GetAll>d__3::MoveNext()",
+              "Instruction": "IL_009d: ldarg "
             },
             {
               "Id": 353,
-              "StartLine": 62,
-              "EndLine": 66,
+              "StartLine": 48,
+              "EndLine": 48,
               "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.CategoryController/<Post>d__4",
+              "EndColumn": 74,
+              "Class": "blog.Controllers.CategoryController/<GetAll>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0046: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<GetAll>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
             },
             {
               "Id": 354,
-              "StartLine": 68,
-              "EndLine": 68,
+              "StartLine": 49,
+              "EndLine": 49,
               "StartColumn": 13,
-              "EndColumn": 56,
-              "Class": "blog.Controllers.CategoryController/<Post>d__4",
+              "EndColumn": 38,
+              "Class": "blog.Controllers.CategoryController/<GetAll>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_0075: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<GetAll>d__3::MoveNext()",
+              "Instruction": "IL_009d: ldarg "
             },
             {
               "Id": 355,
-              "StartLine": 70,
-              "EndLine": 70,
-              "StartColumn": 13,
-              "EndColumn": 72,
-              "Class": "blog.Controllers.CategoryController/<Post>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
-              "Instruction": "IL_00e6: ldarg "
-            },
-            {
-              "Id": 356,
               "StartLine": 57,
               "EndLine": 57,
               "StartColumn": 12,
@@ -1603,7 +1570,7 @@
               "Instruction": "IL_0012: ldarg "
             },
             {
-              "Id": 357,
+              "Id": 356,
               "StartLine": 59,
               "EndLine": 59,
               "StartColumn": 17,
@@ -1614,7 +1581,7 @@
               "Instruction": "IL_002a: ldarg "
             },
             {
-              "Id": 358,
+              "Id": 357,
               "StartLine": 62,
               "EndLine": 66,
               "StartColumn": 13,
@@ -1625,7 +1592,7 @@
               "Instruction": "IL_0046: ldarg "
             },
             {
-              "Id": 359,
+              "Id": 358,
               "StartLine": 68,
               "EndLine": 68,
               "StartColumn": 13,
@@ -1636,7 +1603,7 @@
               "Instruction": "IL_0075: ldarg "
             },
             {
-              "Id": 360,
+              "Id": 359,
               "StartLine": 70,
               "EndLine": 70,
               "StartColumn": 13,
@@ -1647,117 +1614,62 @@
               "Instruction": "IL_00e6: ldarg "
             },
             {
-              "Id": 361,
-              "StartLine": 78,
-              "EndLine": 78,
-              "StartColumn": 13,
-              "EndColumn": 37,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Id": 360,
+              "StartLine": 57,
+              "EndLine": 57,
+              "StartColumn": 12,
+              "EndColumn": 36,
+              "Class": "blog.Controllers.CategoryController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_001d: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 361,
+              "StartLine": 59,
+              "EndLine": 59,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.CategoryController/<Post>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
             },
             {
               "Id": 362,
-              "StartLine": 80,
-              "EndLine": 80,
-              "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "StartLine": 62,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CategoryController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0035: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
             },
             {
               "Id": 363,
-              "StartLine": 83,
-              "EndLine": 83,
+              "StartLine": 68,
+              "EndLine": 68,
               "StartColumn": 13,
-              "EndColumn": 59,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "EndColumn": 56,
+              "Class": "blog.Controllers.CategoryController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0051: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_0075: ldarg "
             },
             {
               "Id": 364,
-              "StartLine": 85,
-              "EndLine": 85,
+              "StartLine": 70,
+              "EndLine": 70,
               "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CategoryController/<Post>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00da: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Post>d__4::MoveNext()",
+              "Instruction": "IL_00e6: ldarg "
             },
             {
               "Id": 365,
-              "StartLine": 87,
-              "EndLine": 87,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00ea: ldarg "
-            },
-            {
-              "Id": 366,
-              "StartLine": 90,
-              "EndLine": 90,
-              "StartColumn": 13,
-              "EndColumn": 39,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_00fb: ldarg "
-            },
-            {
-              "Id": 367,
-              "StartLine": 91,
-              "EndLine": 91,
-              "StartColumn": 13,
-              "EndColumn": 53,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0112: ldarg "
-            },
-            {
-              "Id": 368,
-              "StartLine": 92,
-              "EndLine": 92,
-              "StartColumn": 13,
-              "EndColumn": 47,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_0129: ldarg "
-            },
-            {
-              "Id": 369,
-              "StartLine": 94,
-              "EndLine": 94,
-              "StartColumn": 13,
-              "EndColumn": 52,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_013a: ldarg "
-            },
-            {
-              "Id": 370,
-              "StartLine": 96,
-              "EndLine": 96,
-              "StartColumn": 13,
-              "EndColumn": 32,
-              "Class": "blog.Controllers.CategoryController/<Put>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
-              "Instruction": "IL_01ab: ldarg "
-            },
-            {
-              "Id": 371,
               "StartLine": 78,
               "EndLine": 78,
               "StartColumn": 13,
@@ -1768,7 +1680,7 @@
               "Instruction": "IL_001d: ldarg "
             },
             {
-              "Id": 372,
+              "Id": 366,
               "StartLine": 80,
               "EndLine": 80,
               "StartColumn": 17,
@@ -1779,7 +1691,7 @@
               "Instruction": "IL_0035: ldarg "
             },
             {
-              "Id": 373,
+              "Id": 367,
               "StartLine": 83,
               "EndLine": 83,
               "StartColumn": 13,
@@ -1790,7 +1702,7 @@
               "Instruction": "IL_0051: ldarg "
             },
             {
-              "Id": 374,
+              "Id": 368,
               "StartLine": 85,
               "EndLine": 85,
               "StartColumn": 13,
@@ -1801,7 +1713,7 @@
               "Instruction": "IL_00da: ldarg "
             },
             {
-              "Id": 375,
+              "Id": 369,
               "StartLine": 87,
               "EndLine": 87,
               "StartColumn": 17,
@@ -1812,7 +1724,7 @@
               "Instruction": "IL_00ea: ldarg "
             },
             {
-              "Id": 376,
+              "Id": 370,
               "StartLine": 90,
               "EndLine": 90,
               "StartColumn": 13,
@@ -1823,7 +1735,7 @@
               "Instruction": "IL_00fb: ldarg "
             },
             {
-              "Id": 377,
+              "Id": 371,
               "StartLine": 91,
               "EndLine": 91,
               "StartColumn": 13,
@@ -1834,7 +1746,7 @@
               "Instruction": "IL_0112: ldarg "
             },
             {
-              "Id": 378,
+              "Id": 372,
               "StartLine": 92,
               "EndLine": 92,
               "StartColumn": 13,
@@ -1845,7 +1757,7 @@
               "Instruction": "IL_0129: ldarg "
             },
             {
-              "Id": 379,
+              "Id": 373,
               "StartLine": 94,
               "EndLine": 94,
               "StartColumn": 13,
@@ -1856,7 +1768,7 @@
               "Instruction": "IL_013a: ldarg "
             },
             {
-              "Id": 380,
+              "Id": 374,
               "StartLine": 96,
               "EndLine": 96,
               "StartColumn": 13,
@@ -1867,7 +1779,117 @@
               "Instruction": "IL_01ab: ldarg "
             },
             {
+              "Id": 375,
+              "StartLine": 78,
+              "EndLine": 78,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 376,
+              "StartLine": 80,
+              "EndLine": 80,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 377,
+              "StartLine": 83,
+              "EndLine": 83,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 378,
+              "StartLine": 85,
+              "EndLine": 85,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 379,
+              "StartLine": 87,
+              "EndLine": 87,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 380,
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 39,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_00fb: ldarg "
+            },
+            {
               "Id": 381,
+              "StartLine": 91,
+              "EndLine": 91,
+              "StartColumn": 13,
+              "EndColumn": 53,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0112: ldarg "
+            },
+            {
+              "Id": 382,
+              "StartLine": 92,
+              "EndLine": 92,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_0129: ldarg "
+            },
+            {
+              "Id": 383,
+              "StartLine": 94,
+              "EndLine": 94,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_013a: ldarg "
+            },
+            {
+              "Id": 384,
+              "StartLine": 96,
+              "EndLine": 96,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.CategoryController/<Put>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CategoryController/<Put>d__5::MoveNext()",
+              "Instruction": "IL_01ab: ldarg "
+            },
+            {
+              "Id": 385,
               "StartLine": 104,
               "EndLine": 104,
               "StartColumn": 13,
@@ -1878,7 +1900,7 @@
               "Instruction": "IL_0012: ldarg "
             },
             {
-              "Id": 382,
+              "Id": 386,
               "StartLine": 106,
               "EndLine": 106,
               "StartColumn": 13,
@@ -1889,7 +1911,7 @@
               "Instruction": "IL_002e: ldarg "
             },
             {
-              "Id": 383,
+              "Id": 387,
               "StartLine": 108,
               "EndLine": 108,
               "StartColumn": 17,
@@ -1900,7 +1922,7 @@
               "Instruction": "IL_003c: ldarg "
             },
             {
-              "Id": 384,
+              "Id": 388,
               "StartLine": 111,
               "EndLine": 111,
               "StartColumn": 13,
@@ -1911,7 +1933,7 @@
               "Instruction": "IL_004d: ldarg "
             },
             {
-              "Id": 385,
+              "Id": 389,
               "StartLine": 113,
               "EndLine": 113,
               "StartColumn": 13,
@@ -1922,7 +1944,7 @@
               "Instruction": "IL_00bb: ldarg "
             },
             {
-              "Id": 386,
+              "Id": 390,
               "StartLine": 104,
               "EndLine": 104,
               "StartColumn": 13,
@@ -1933,7 +1955,7 @@
               "Instruction": "IL_0012: ldarg "
             },
             {
-              "Id": 387,
+              "Id": 391,
               "StartLine": 106,
               "EndLine": 106,
               "StartColumn": 13,
@@ -1944,7 +1966,7 @@
               "Instruction": "IL_002e: ldarg "
             },
             {
-              "Id": 388,
+              "Id": 392,
               "StartLine": 108,
               "EndLine": 108,
               "StartColumn": 17,
@@ -1955,7 +1977,7 @@
               "Instruction": "IL_003c: ldarg "
             },
             {
-              "Id": 389,
+              "Id": 393,
               "StartLine": 111,
               "EndLine": 111,
               "StartColumn": 13,
@@ -1966,7 +1988,7 @@
               "Instruction": "IL_004d: ldarg "
             },
             {
-              "Id": 390,
+              "Id": 394,
               "StartLine": 113,
               "EndLine": 113,
               "StartColumn": 13,
@@ -1981,7 +2003,7 @@
         "blog/Controllers/CommentsController.cs": {
           "Instructions": [
             {
-              "Id": 391,
+              "Id": 395,
               "StartLine": 20,
               "EndLine": 20,
               "StartColumn": 9,
@@ -1992,7 +2014,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 392,
+              "Id": 396,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 13,
@@ -2003,7 +2025,7 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 393,
+              "Id": 397,
               "StartLine": 23,
               "EndLine": 23,
               "StartColumn": 13,
@@ -2014,95 +2036,29 @@
               "Instruction": "IL_000f: ldarg "
             },
             {
-              "Id": 394,
-              "StartLine": 41,
-              "EndLine": 49,
-              "StartColumn": 49,
-              "EndColumn": 18,
-              "Class": "blog.Controllers.CommentsController/<>c",
-              "Method": "<Get>b__3_0",
-              "MethodFullName": "blog.Model.CommentModel blog.Controllers.CommentsController/<>c::<Get>b__3_0(blog.Domain.Comment)",
-              "Instruction": "IL_0000: newobj System.Void blog.Model.CommentModel::.ctor()"
-            },
-            {
-              "Id": 395,
-              "StartLine": 41,
-              "EndLine": 49,
-              "StartColumn": 49,
-              "EndColumn": 18,
-              "Class": "blog.Controllers.CommentsController/<>c",
-              "Method": "<Get>b__3_0",
-              "MethodFullName": "blog.Model.CommentModel blog.Controllers.CommentsController/<>c::<Get>b__3_0(blog.Domain.Comment)",
-              "Instruction": "IL_0000: newobj System.Void blog.Model.CommentModel::.ctor()"
-            },
-            {
-              "Id": 396,
-              "StartLine": 30,
-              "EndLine": 30,
-              "StartColumn": 13,
-              "EndColumn": 72,
-              "Class": "blog.Controllers.CommentsController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_001a: ldarg "
-            },
-            {
-              "Id": 397,
-              "StartLine": 32,
-              "EndLine": 32,
-              "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.CommentsController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_00a2: ldarg "
-            },
-            {
               "Id": 398,
-              "StartLine": 34,
-              "EndLine": 34,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.CommentsController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_00b2: ldarg "
+              "StartLine": 41,
+              "EndLine": 49,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.CommentsController/<>c",
+              "Method": "<Get>b__3_0",
+              "MethodFullName": "blog.Model.CommentModel blog.Controllers.CommentsController/<>c::<Get>b__3_0(blog.Domain.Comment)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.CommentModel::.ctor()"
             },
             {
               "Id": 399,
-              "StartLine": 37,
-              "EndLine": 37,
-              "StartColumn": 13,
-              "EndColumn": 75,
-              "Class": "blog.Controllers.CommentsController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_00c3: ldarg "
+              "StartLine": 41,
+              "EndLine": 49,
+              "StartColumn": 49,
+              "EndColumn": 18,
+              "Class": "blog.Controllers.CommentsController/<>c",
+              "Method": "<Get>b__3_0",
+              "MethodFullName": "blog.Model.CommentModel blog.Controllers.CommentsController/<>c::<Get>b__3_0(blog.Domain.Comment)",
+              "Instruction": "IL_0000: newobj System.Void blog.Model.CommentModel::.ctor()"
             },
             {
               "Id": 400,
-              "StartLine": 39,
-              "EndLine": 50,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.CommentsController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_0157: ldarg "
-            },
-            {
-              "Id": 401,
-              "StartLine": 52,
-              "EndLine": 52,
-              "StartColumn": 13,
-              "EndColumn": 31,
-              "Class": "blog.Controllers.CommentsController/<Get>d__3",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
-              "Instruction": "IL_0193: ldarg "
-            },
-            {
-              "Id": 402,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 13,
@@ -2113,7 +2069,7 @@
               "Instruction": "IL_001a: ldarg "
             },
             {
-              "Id": 403,
+              "Id": 401,
               "StartLine": 32,
               "EndLine": 32,
               "StartColumn": 13,
@@ -2124,7 +2080,7 @@
               "Instruction": "IL_00a2: ldarg "
             },
             {
-              "Id": 404,
+              "Id": 402,
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 17,
@@ -2135,7 +2091,7 @@
               "Instruction": "IL_00b2: ldarg "
             },
             {
-              "Id": 405,
+              "Id": 403,
               "StartLine": 37,
               "EndLine": 37,
               "StartColumn": 13,
@@ -2146,7 +2102,7 @@
               "Instruction": "IL_00c3: ldarg "
             },
             {
-              "Id": 406,
+              "Id": 404,
               "StartLine": 39,
               "EndLine": 50,
               "StartColumn": 13,
@@ -2157,7 +2113,7 @@
               "Instruction": "IL_0157: ldarg "
             },
             {
-              "Id": 407,
+              "Id": 405,
               "StartLine": 52,
               "EndLine": 52,
               "StartColumn": 13,
@@ -2168,95 +2124,73 @@
               "Instruction": "IL_0193: ldarg "
             },
             {
-              "Id": 408,
-              "StartLine": 59,
-              "EndLine": 59,
+              "Id": 406,
+              "StartLine": 30,
+              "EndLine": 30,
               "StartColumn": 13,
               "EndColumn": 72,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_004a: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_001a: ldarg "
+            },
+            {
+              "Id": 407,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00a2: ldarg "
+            },
+            {
+              "Id": 408,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00b2: ldarg "
             },
             {
               "Id": 409,
-              "StartLine": 61,
-              "EndLine": 61,
+              "StartLine": 37,
+              "EndLine": 37,
               "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "EndColumn": 75,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_00d7: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_00c3: ldarg "
             },
             {
               "Id": 410,
-              "StartLine": 63,
-              "EndLine": 63,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "StartLine": 39,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_00e7: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
             },
             {
               "Id": 411,
-              "StartLine": 66,
-              "EndLine": 66,
+              "StartLine": 52,
+              "EndLine": 52,
               "StartColumn": 13,
-              "EndColumn": 125,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "EndColumn": 31,
+              "Class": "blog.Controllers.CommentsController/<Get>d__3",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_00f8: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__3::MoveNext()",
+              "Instruction": "IL_0193: ldarg "
             },
             {
               "Id": 412,
-              "StartLine": 68,
-              "EndLine": 68,
-              "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_0244: ldarg "
-            },
-            {
-              "Id": 413,
-              "StartLine": 70,
-              "EndLine": 70,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_0254: ldarg "
-            },
-            {
-              "Id": 414,
-              "StartLine": 73,
-              "EndLine": 81,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_0265: ldarg "
-            },
-            {
-              "Id": 415,
-              "StartLine": 83,
-              "EndLine": 83,
-              "StartColumn": 13,
-              "EndColumn": 31,
-              "Class": "blog.Controllers.CommentsController/<Get>d__4",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
-              "Instruction": "IL_02dc: ldarg "
-            },
-            {
-              "Id": 416,
               "StartLine": 59,
               "EndLine": 59,
               "StartColumn": 13,
@@ -2267,7 +2201,7 @@
               "Instruction": "IL_004a: ldarg "
             },
             {
-              "Id": 417,
+              "Id": 413,
               "StartLine": 61,
               "EndLine": 61,
               "StartColumn": 13,
@@ -2278,7 +2212,7 @@
               "Instruction": "IL_00d7: ldarg "
             },
             {
-              "Id": 418,
+              "Id": 414,
               "StartLine": 63,
               "EndLine": 63,
               "StartColumn": 17,
@@ -2289,7 +2223,7 @@
               "Instruction": "IL_00e7: ldarg "
             },
             {
-              "Id": 419,
+              "Id": 415,
               "StartLine": 66,
               "EndLine": 66,
               "StartColumn": 13,
@@ -2300,7 +2234,7 @@
               "Instruction": "IL_00f8: ldarg "
             },
             {
-              "Id": 420,
+              "Id": 416,
               "StartLine": 68,
               "EndLine": 68,
               "StartColumn": 13,
@@ -2311,7 +2245,7 @@
               "Instruction": "IL_0244: ldarg "
             },
             {
-              "Id": 421,
+              "Id": 417,
               "StartLine": 70,
               "EndLine": 70,
               "StartColumn": 17,
@@ -2322,7 +2256,7 @@
               "Instruction": "IL_0254: ldarg "
             },
             {
-              "Id": 422,
+              "Id": 418,
               "StartLine": 73,
               "EndLine": 81,
               "StartColumn": 13,
@@ -2333,7 +2267,7 @@
               "Instruction": "IL_0265: ldarg "
             },
             {
-              "Id": 423,
+              "Id": 419,
               "StartLine": 83,
               "EndLine": 83,
               "StartColumn": 13,
@@ -2344,106 +2278,95 @@
               "Instruction": "IL_02dc: ldarg "
             },
             {
-              "Id": 424,
-              "StartLine": 90,
-              "EndLine": 90,
+              "Id": 420,
+              "StartLine": 59,
+              "EndLine": 59,
               "StartColumn": 13,
-              "EndColumn": 37,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_001d: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_004a: ldarg "
+            },
+            {
+              "Id": 421,
+              "StartLine": 61,
+              "EndLine": 61,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00d7: ldarg "
+            },
+            {
+              "Id": 422,
+              "StartLine": 63,
+              "EndLine": 63,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00e7: ldarg "
+            },
+            {
+              "Id": 423,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 125,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_00f8: ldarg "
+            },
+            {
+              "Id": 424,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0244: ldarg "
             },
             {
               "Id": 425,
-              "StartLine": 92,
-              "EndLine": 92,
+              "StartLine": 70,
+              "EndLine": 70,
               "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_0035: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0254: ldarg "
             },
             {
               "Id": 426,
-              "StartLine": 95,
-              "EndLine": 95,
+              "StartLine": 73,
+              "EndLine": 81,
               "StartColumn": 13,
-              "EndColumn": 72,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_0051: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0265: ldarg "
             },
             {
               "Id": 427,
-              "StartLine": 97,
-              "EndLine": 97,
+              "StartLine": 83,
+              "EndLine": 83,
               "StartColumn": 13,
-              "EndColumn": 33,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "EndColumn": 31,
+              "Class": "blog.Controllers.CommentsController/<Get>d__4",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_00da: ldarg "
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02dc: ldarg "
             },
             {
               "Id": 428,
-              "StartLine": 99,
-              "EndLine": 99,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_00ea: ldarg "
-            },
-            {
-              "Id": 429,
-              "StartLine": 102,
-              "EndLine": 110,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_00fb: ldarg "
-            },
-            {
-              "Id": 430,
-              "StartLine": 112,
-              "EndLine": 112,
-              "StartColumn": 13,
-              "EndColumn": 59,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_016c: ldarg "
-            },
-            {
-              "Id": 431,
-              "StartLine": 114,
-              "EndLine": 122,
-              "StartColumn": 13,
-              "EndColumn": 15,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_01e0: ldarg "
-            },
-            {
-              "Id": 432,
-              "StartLine": 124,
-              "EndLine": 124,
-              "StartColumn": 13,
-              "EndColumn": 83,
-              "Class": "blog.Controllers.CommentsController/<Post>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_0257: ldarg "
-            },
-            {
-              "Id": 433,
               "StartLine": 90,
               "EndLine": 90,
               "StartColumn": 13,
@@ -2454,7 +2377,7 @@
               "Instruction": "IL_001d: ldarg "
             },
             {
-              "Id": 434,
+              "Id": 429,
               "StartLine": 92,
               "EndLine": 92,
               "StartColumn": 17,
@@ -2465,7 +2388,7 @@
               "Instruction": "IL_0035: ldarg "
             },
             {
-              "Id": 435,
+              "Id": 430,
               "StartLine": 95,
               "EndLine": 95,
               "StartColumn": 13,
@@ -2476,77 +2399,521 @@
               "Instruction": "IL_0051: ldarg "
             },
             {
-              "Id": 436,
+              "Id": 431,
               "StartLine": 97,
               "EndLine": 97,
               "StartColumn": 13,
-              "EndColumn": 33,
+              "EndColumn": 32,
               "Class": "blog.Controllers.CommentsController/<Post>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
               "Instruction": "IL_00da: ldarg "
             },
             {
-              "Id": 437,
-              "StartLine": 99,
-              "EndLine": 99,
+              "Id": 432,
+              "StartLine": 98,
+              "EndLine": 98,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "blog.Controllers.CommentsController/<Post>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_00ea: ldarg "
+              "Instruction": "IL_00e9: ldarg "
             },
             {
-              "Id": 438,
-              "StartLine": 102,
-              "EndLine": 110,
+              "Id": 433,
+              "StartLine": 100,
+              "EndLine": 108,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "blog.Controllers.CommentsController/<Post>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_00fb: ldarg "
+              "Instruction": "IL_00fa: ldarg "
             },
             {
-              "Id": 439,
-              "StartLine": 112,
-              "EndLine": 112,
+              "Id": 434,
+              "StartLine": 110,
+              "EndLine": 110,
               "StartColumn": 13,
               "EndColumn": 59,
               "Class": "blog.Controllers.CommentsController/<Post>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_016c: ldarg "
+              "Instruction": "IL_016b: ldarg "
             },
             {
-              "Id": 440,
-              "StartLine": 114,
-              "EndLine": 122,
+              "Id": 435,
+              "StartLine": 112,
+              "EndLine": 120,
               "StartColumn": 13,
               "EndColumn": 15,
               "Class": "blog.Controllers.CommentsController/<Post>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_01e0: ldarg "
+              "Instruction": "IL_01df: ldarg "
             },
             {
-              "Id": 441,
-              "StartLine": 124,
-              "EndLine": 124,
+              "Id": 436,
+              "StartLine": 122,
+              "EndLine": 122,
               "StartColumn": 13,
               "EndColumn": 83,
               "Class": "blog.Controllers.CommentsController/<Post>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
-              "Instruction": "IL_0257: ldarg "
+              "Instruction": "IL_0256: ldarg "
+            },
+            {
+              "Id": 437,
+              "StartLine": 90,
+              "EndLine": 90,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_001d: ldarg "
+            },
+            {
+              "Id": 438,
+              "StartLine": 92,
+              "EndLine": 92,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0035: ldarg "
+            },
+            {
+              "Id": 439,
+              "StartLine": 95,
+              "EndLine": 95,
+              "StartColumn": 13,
+              "EndColumn": 72,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0051: ldarg "
+            },
+            {
+              "Id": 440,
+              "StartLine": 97,
+              "EndLine": 97,
+              "StartColumn": 13,
+              "EndColumn": 32,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00da: ldarg "
+            },
+            {
+              "Id": 441,
+              "StartLine": 98,
+              "EndLine": 98,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 442,
+              "StartLine": 100,
+              "EndLine": 108,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_00fa: ldarg "
+            },
+            {
+              "Id": 443,
+              "StartLine": 110,
+              "EndLine": 110,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_016b: ldarg "
+            },
+            {
+              "Id": 444,
+              "StartLine": 112,
+              "EndLine": 120,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_01df: ldarg "
+            },
+            {
+              "Id": 445,
+              "StartLine": 122,
+              "EndLine": 122,
+              "StartColumn": 13,
+              "EndColumn": 83,
+              "Class": "blog.Controllers.CommentsController/<Post>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.CommentsController/<Post>d__5::MoveNext()",
+              "Instruction": "IL_0256: ldarg "
+            }
+          ]
+        },
+        "blog/Controllers/MediaController.cs": {
+          "Instructions": [
+            {
+              "Id": 446,
+              "StartLine": 25,
+              "EndLine": 25,
+              "StartColumn": 9,
+              "EndColumn": 103,
+              "Class": "blog.Controllers.MediaController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.MediaController::.ctor(blog.Repositories.IMediaRepository,blog.Repositories.IArticleRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 447,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 48,
+              "Class": "blog.Controllers.MediaController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.MediaController::.ctor(blog.Repositories.IMediaRepository,blog.Repositories.IArticleRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 448,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "blog.Controllers.MediaController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void blog.Controllers.MediaController::.ctor(blog.Repositories.IMediaRepository,blog.Repositories.IArticleRepository)",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 449,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 39,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.MediaController/<>c",
+              "Method": "<Post>b__3_0",
+              "MethodFullName": "System.Int64 blog.Controllers.MediaController/<>c::<Post>b__3_0(Microsoft.AspNetCore.Http.IFormFile)",
+              "Instruction": "IL_0000: ldarg f"
+            },
+            {
+              "Id": 450,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 39,
+              "EndColumn": 47,
+              "Class": "blog.Controllers.MediaController/<>c",
+              "Method": "<Post>b__3_0",
+              "MethodFullName": "System.Int64 blog.Controllers.MediaController/<>c::<Post>b__3_0(Microsoft.AspNetCore.Http.IFormFile)",
+              "Instruction": "IL_0000: ldarg f"
+            },
+            {
+              "Id": 451,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 452,
+              "StartLine": 42,
+              "EndLine": 42,
+              "StartColumn": 13,
+              "EndColumn": 51,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_003f: ldarg "
+            },
+            {
+              "Id": 453,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 20,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_004a: nop"
+            },
+            {
+              "Id": 454,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 38,
+              "EndColumn": 43,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_004b: ldarg "
+            },
+            {
+              "Id": 455,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 22,
+              "EndColumn": 34,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_0069: ldarg "
+            },
+            {
+              "Id": 456,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 17,
+              "EndColumn": 41,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_007b: ldarg "
+            },
+            {
+              "Id": 457,
+              "StartLine": 47,
+              "EndLine": 47,
+              "StartColumn": 28,
+              "EndColumn": 82,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_0092: ldarg "
+            },
+            {
+              "Id": 458,
+              "StartLine": 49,
+              "EndLine": 49,
+              "StartColumn": 25,
+              "EndColumn": 60,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_00ad: ldarg "
+            },
+            {
+              "Id": 459,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 35,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_014f: ldarg "
+            },
+            {
+              "Id": 460,
+              "StartLine": 55,
+              "EndLine": 55,
+              "StartColumn": 13,
+              "EndColumn": 68,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_0184: ldarg "
+            },
+            {
+              "Id": 461,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 462,
+              "StartLine": 42,
+              "EndLine": 42,
+              "StartColumn": 13,
+              "EndColumn": 51,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_003f: ldarg "
+            },
+            {
+              "Id": 463,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 20,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_004a: nop"
+            },
+            {
+              "Id": 464,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 38,
+              "EndColumn": 43,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_004b: ldarg "
+            },
+            {
+              "Id": 465,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 22,
+              "EndColumn": 34,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_0069: ldarg "
+            },
+            {
+              "Id": 466,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 17,
+              "EndColumn": 41,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_007b: ldarg "
+            },
+            {
+              "Id": 467,
+              "StartLine": 47,
+              "EndLine": 47,
+              "StartColumn": 28,
+              "EndColumn": 82,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_0092: ldarg "
+            },
+            {
+              "Id": 468,
+              "StartLine": 49,
+              "EndLine": 49,
+              "StartColumn": 25,
+              "EndColumn": 60,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_00ad: ldarg "
+            },
+            {
+              "Id": 469,
+              "StartLine": 43,
+              "EndLine": 43,
+              "StartColumn": 35,
+              "EndColumn": 37,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_014f: ldarg "
+            },
+            {
+              "Id": 470,
+              "StartLine": 55,
+              "EndLine": 55,
+              "StartColumn": 13,
+              "EndColumn": 68,
+              "Class": "blog.Controllers.MediaController/<Post>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Post>d__3::MoveNext()",
+              "Instruction": "IL_0184: ldarg "
+            },
+            {
+              "Id": 471,
+              "StartLine": 62,
+              "EndLine": 62,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.MediaController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 472,
+              "StartLine": 62,
+              "EndLine": 62,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.MediaController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 473,
+              "StartLine": 69,
+              "EndLine": 69,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.MediaController/<GetMedias>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<GetMedias>d__5::MoveNext()",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 474,
+              "StartLine": 69,
+              "EndLine": 69,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.MediaController/<GetMedias>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<GetMedias>d__5::MoveNext()",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 475,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.MediaController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 476,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "blog.Controllers.MediaController/<Delete>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void blog.Controllers.MediaController/<Delete>d__6::MoveNext()",
+              "Instruction": "IL_0008: ldarg "
             }
           ]
         },
         "blog/Domain/Article.cs": {
           "Instructions": [
             {
-              "Id": 117,
+              "Id": 119,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 31,
@@ -2557,7 +2924,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 118,
+              "Id": 120,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 36,
@@ -2568,7 +2935,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 119,
+              "Id": 121,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 33,
@@ -2579,7 +2946,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 120,
+              "Id": 122,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 38,
@@ -2590,7 +2957,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 121,
+              "Id": 123,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 32,
@@ -2601,7 +2968,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 122,
+              "Id": 124,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 37,
@@ -2612,7 +2979,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 123,
+              "Id": 125,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 33,
@@ -2623,7 +2990,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 124,
+              "Id": 126,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 38,
@@ -2638,7 +3005,7 @@
         "blog/Domain/ArticleTag.cs": {
           "Instructions": [
             {
-              "Id": 125,
+              "Id": 127,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 34,
@@ -2649,7 +3016,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 126,
+              "Id": 128,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 39,
@@ -2660,7 +3027,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 127,
+              "Id": 129,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 43,
@@ -2671,7 +3038,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 128,
+              "Id": 130,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 48,
@@ -2686,7 +3053,7 @@
         "blog/Domain/Author.cs": {
           "Instructions": [
             {
-              "Id": 129,
+              "Id": 131,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 30,
@@ -2697,7 +3064,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 130,
+              "Id": 132,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 35,
@@ -2708,7 +3075,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 131,
+              "Id": 133,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 38,
@@ -2719,7 +3086,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 132,
+              "Id": 134,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 43,
@@ -2730,7 +3097,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 133,
+              "Id": 135,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 31,
@@ -2741,7 +3108,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 134,
+              "Id": 136,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 36,
@@ -2752,7 +3119,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 135,
+              "Id": 137,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 38,
@@ -2763,7 +3130,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 136,
+              "Id": 138,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 43,
@@ -2778,7 +3145,7 @@
         "blog/Domain/AuthorArticle.cs": {
           "Instructions": [
             {
-              "Id": 137,
+              "Id": 139,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 34,
@@ -2789,7 +3156,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 138,
+              "Id": 140,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 39,
@@ -2800,7 +3167,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 139,
+              "Id": 141,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 32,
@@ -2811,7 +3178,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 140,
+              "Id": 142,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 37,
@@ -2826,7 +3193,7 @@
         "blog/Domain/BaseEntity.cs": {
           "Instructions": [
             {
-              "Id": 141,
+              "Id": 143,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 26,
@@ -2837,7 +3204,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 142,
+              "Id": 144,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 31,
@@ -2848,7 +3215,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 143,
+              "Id": 145,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 38,
@@ -2859,7 +3226,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 144,
+              "Id": 146,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 43,
@@ -2870,7 +3237,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 145,
+              "Id": 147,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 38,
@@ -2881,7 +3248,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 146,
+              "Id": 148,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 43,
@@ -2896,7 +3263,7 @@
         "blog/Domain/Category.cs": {
           "Instructions": [
             {
-              "Id": 147,
+              "Id": 149,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 30,
@@ -2907,7 +3274,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 148,
+              "Id": 150,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 35,
@@ -2918,7 +3285,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 149,
+              "Id": 151,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 37,
@@ -2929,7 +3296,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 150,
+              "Id": 152,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 42,
@@ -2944,7 +3311,7 @@
         "blog/Domain/CategoryArticle.cs": {
           "Instructions": [
             {
-              "Id": 151,
+              "Id": 153,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 36,
@@ -2955,7 +3322,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 152,
+              "Id": 154,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 41,
@@ -2966,7 +3333,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 153,
+              "Id": 155,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 34,
@@ -2977,7 +3344,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 154,
+              "Id": 156,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 39,
@@ -2992,7 +3359,7 @@
         "blog/Domain/Comment.cs": {
           "Instructions": [
             {
-              "Id": 155,
+              "Id": 157,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 33,
@@ -3003,7 +3370,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 156,
+              "Id": 158,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 38,
@@ -3014,7 +3381,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 157,
+              "Id": 159,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 42,
@@ -3025,7 +3392,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 158,
+              "Id": 160,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 47,
@@ -3036,7 +3403,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 159,
+              "Id": 161,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 31,
@@ -3047,7 +3414,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 160,
+              "Id": 162,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 36,
@@ -3058,7 +3425,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 161,
+              "Id": 163,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 31,
@@ -3069,7 +3436,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 162,
+              "Id": 164,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 36,
@@ -3080,7 +3447,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 163,
+              "Id": 165,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 33,
@@ -3091,7 +3458,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 164,
+              "Id": 166,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 38,
@@ -3102,7 +3469,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 165,
+              "Id": 167,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 32,
@@ -3113,7 +3480,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 166,
+              "Id": 168,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 37,
@@ -3124,7 +3491,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 167,
+              "Id": 169,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 33,
@@ -3135,7 +3502,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 168,
+              "Id": 170,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 38,
@@ -3150,7 +3517,7 @@
         "blog/Domain/Configuration.cs": {
           "Instructions": [
             {
-              "Id": 169,
+              "Id": 171,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 30,
@@ -3161,7 +3528,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 170,
+              "Id": 172,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 35,
@@ -3172,7 +3539,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 171,
+              "Id": 173,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 30,
@@ -3183,7 +3550,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 172,
+              "Id": 174,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 35,
@@ -3194,7 +3561,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 173,
+              "Id": 175,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 32,
@@ -3205,7 +3572,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 174,
+              "Id": 176,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 37,
@@ -3216,7 +3583,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 175,
+              "Id": 177,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 32,
@@ -3227,7 +3594,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 176,
+              "Id": 178,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 37,
@@ -3238,7 +3605,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 177,
+              "Id": 179,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 34,
@@ -3249,7 +3616,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 178,
+              "Id": 180,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 39,
@@ -3264,7 +3631,7 @@
         "blog/Domain/CrossBlogDbContext.cs": {
           "Instructions": [
             {
-              "Id": 179,
+              "Id": 181,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 42,
@@ -3275,7 +3642,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 180,
+              "Id": 182,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 47,
@@ -3286,7 +3653,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 181,
+              "Id": 183,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 42,
@@ -3297,7 +3664,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 182,
+              "Id": 184,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 47,
@@ -3308,7 +3675,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 183,
+              "Id": 185,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 40,
@@ -3319,7 +3686,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 184,
+              "Id": 186,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 45,
@@ -3330,7 +3697,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 185,
+              "Id": 187,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 53,
@@ -3341,7 +3708,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 186,
+              "Id": 188,
               "StartLine": 13,
               "EndLine": 13,
               "StartColumn": 58,
@@ -3352,7 +3719,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 187,
+              "Id": 189,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 45,
@@ -3363,7 +3730,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 188,
+              "Id": 190,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 50,
@@ -3374,7 +3741,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 189,
+              "Id": 191,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 38,
@@ -3385,7 +3752,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 190,
+              "Id": 192,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 43,
@@ -3396,7 +3763,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 191,
+              "Id": 193,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 54,
@@ -3407,7 +3774,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 192,
+              "Id": 194,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 59,
@@ -3418,7 +3785,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 193,
+              "Id": 195,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 34,
@@ -3429,7 +3796,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 194,
+              "Id": 196,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 39,
@@ -3440,7 +3807,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 195,
+              "Id": 197,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 47,
@@ -3451,7 +3818,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 196,
+              "Id": 198,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 52,
@@ -3462,7 +3829,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 197,
+              "Id": 199,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 57,
@@ -3473,7 +3840,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 198,
+              "Id": 200,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 62,
@@ -3484,7 +3851,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 199,
+              "Id": 201,
               "StartLine": 20,
               "EndLine": 20,
               "StartColumn": 51,
@@ -3495,7 +3862,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 200,
+              "Id": 202,
               "StartLine": 20,
               "EndLine": 20,
               "StartColumn": 56,
@@ -3506,7 +3873,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 201,
+              "Id": 203,
               "StartLine": 27,
               "EndLine": 27,
               "StartColumn": 83,
@@ -3517,7 +3884,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 202,
+              "Id": 204,
               "StartLine": 37,
               "EndLine": 37,
               "StartColumn": 13,
@@ -3532,7 +3899,7 @@
         "blog/Domain/Media.cs": {
           "Instructions": [
             {
-              "Id": 203,
+              "Id": 205,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 30,
@@ -3543,7 +3910,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 204,
+              "Id": 206,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 35,
@@ -3554,7 +3921,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 205,
+              "Id": 207,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 30,
@@ -3565,7 +3932,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 206,
+              "Id": 208,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 35,
@@ -3580,7 +3947,7 @@
         "blog/Domain/MediaArticle.cs": {
           "Instructions": [
             {
-              "Id": 207,
+              "Id": 209,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 34,
@@ -3591,7 +3958,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 208,
+              "Id": 210,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 39,
@@ -3602,7 +3969,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 209,
+              "Id": 211,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 30,
@@ -3613,7 +3980,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 210,
+              "Id": 212,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 35,
@@ -3628,7 +3995,7 @@
         "blog/Domain/Tag.cs": {
           "Instructions": [
             {
-              "Id": 211,
+              "Id": 213,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 31,
@@ -3639,7 +4006,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 212,
+              "Id": 214,
               "StartLine": 11,
               "EndLine": 11,
               "StartColumn": 36,
@@ -3654,7 +4021,7 @@
         "blog/Exceptions/HttpStatusCodeException.cs": {
           "Instructions": [
             {
-              "Id": 80,
+              "Id": 82,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 33,
@@ -3665,7 +4032,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 81,
+              "Id": 83,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 38,
@@ -3676,7 +4043,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 82,
+              "Id": 84,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 37,
@@ -3687,7 +4054,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 83,
+              "Id": 85,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 42,
@@ -3698,7 +4065,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 84,
+              "Id": 86,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 51,
@@ -3709,7 +4076,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 85,
+              "Id": 87,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 9,
@@ -3720,7 +4087,7 @@
               "Instruction": "IL_000b: ldarg "
             },
             {
-              "Id": 86,
+              "Id": 88,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 13,
@@ -3731,7 +4098,7 @@
               "Instruction": "IL_0013: ldarg "
             },
             {
-              "Id": 87,
+              "Id": 89,
               "StartLine": 10,
               "EndLine": 10,
               "StartColumn": 51,
@@ -3742,7 +4109,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 88,
+              "Id": 90,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 74,
@@ -3753,7 +4120,7 @@
               "Instruction": "IL_000b: ldarg "
             },
             {
-              "Id": 89,
+              "Id": 91,
               "StartLine": 19,
               "EndLine": 19,
               "StartColumn": 13,
@@ -3764,7 +4131,7 @@
               "Instruction": "IL_0014: ldarg "
             },
             {
-              "Id": 90,
+              "Id": 92,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 75,
@@ -3775,7 +4142,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 91,
+              "Id": 93,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 79,
@@ -3786,7 +4153,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 92,
+              "Id": 94,
               "StartLine": 28,
               "EndLine": 28,
               "StartColumn": 13,
@@ -3801,7 +4168,7 @@
         "blog/Exceptions/HttpStatusCodeExceptionMiddleware.cs": {
           "Instructions": [
             {
-              "Id": 93,
+              "Id": 95,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 9,
@@ -3812,7 +4179,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 94,
+              "Id": 96,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 13,
@@ -3823,7 +4190,7 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 95,
+              "Id": 97,
               "StartLine": 17,
               "EndLine": 17,
               "StartColumn": 13,
@@ -3834,7 +4201,7 @@
               "Instruction": "IL_001e: ldarg "
             },
             {
-              "Id": 96,
+              "Id": 98,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 17,
@@ -3845,7 +4212,7 @@
               "Instruction": "IL_002a: ldarg "
             },
             {
-              "Id": 97,
+              "Id": 99,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 13,
@@ -3856,7 +4223,7 @@
               "Instruction": "IL_009d: stloc V_3"
             },
             {
-              "Id": 98,
+              "Id": 100,
               "StartLine": 28,
               "EndLine": 28,
               "StartColumn": 17,
@@ -3867,7 +4234,7 @@
               "Instruction": "IL_00d2: ldarg "
             },
             {
-              "Id": 99,
+              "Id": 101,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 21,
@@ -3878,7 +4245,7 @@
               "Instruction": "IL_00e9: ldarg "
             },
             {
-              "Id": 100,
+              "Id": 102,
               "StartLine": 31,
               "EndLine": 31,
               "StartColumn": 21,
@@ -3889,7 +4256,7 @@
               "Instruction": "IL_0104: ldarg "
             },
             {
-              "Id": 101,
+              "Id": 103,
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 17,
@@ -3900,7 +4267,7 @@
               "Instruction": "IL_012a: ldarg "
             },
             {
-              "Id": 102,
+              "Id": 104,
               "StartLine": 35,
               "EndLine": 35,
               "StartColumn": 17,
@@ -3911,7 +4278,7 @@
               "Instruction": "IL_013b: ldarg "
             },
             {
-              "Id": 103,
+              "Id": 105,
               "StartLine": 36,
               "EndLine": 36,
               "StartColumn": 17,
@@ -3922,7 +4289,7 @@
               "Instruction": "IL_0157: ldarg "
             },
             {
-              "Id": 104,
+              "Id": 106,
               "StartLine": 38,
               "EndLine": 38,
               "StartColumn": 17,
@@ -3933,7 +4300,7 @@
               "Instruction": "IL_0173: ldarg "
             },
             {
-              "Id": 105,
+              "Id": 107,
               "StartLine": 40,
               "EndLine": 40,
               "StartColumn": 17,
@@ -3944,7 +4311,7 @@
               "Instruction": "IL_01f2: leave IL_0217"
             },
             {
-              "Id": 106,
+              "Id": 108,
               "StartLine": 24,
               "EndLine": 24,
               "StartColumn": 17,
@@ -3955,7 +4322,7 @@
               "Instruction": "IL_002a: ldarg "
             },
             {
-              "Id": 107,
+              "Id": 109,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 13,
@@ -3966,7 +4333,7 @@
               "Instruction": "IL_009d: stloc V_3"
             },
             {
-              "Id": 108,
+              "Id": 110,
               "StartLine": 28,
               "EndLine": 28,
               "StartColumn": 17,
@@ -3977,7 +4344,7 @@
               "Instruction": "IL_00d2: ldarg "
             },
             {
-              "Id": 109,
+              "Id": 111,
               "StartLine": 30,
               "EndLine": 30,
               "StartColumn": 21,
@@ -3988,7 +4355,7 @@
               "Instruction": "IL_00e9: ldarg "
             },
             {
-              "Id": 110,
+              "Id": 112,
               "StartLine": 31,
               "EndLine": 31,
               "StartColumn": 21,
@@ -3999,7 +4366,7 @@
               "Instruction": "IL_0104: ldarg "
             },
             {
-              "Id": 111,
+              "Id": 113,
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 17,
@@ -4010,7 +4377,7 @@
               "Instruction": "IL_012a: ldarg "
             },
             {
-              "Id": 112,
+              "Id": 114,
               "StartLine": 35,
               "EndLine": 35,
               "StartColumn": 17,
@@ -4021,7 +4388,7 @@
               "Instruction": "IL_013b: ldarg "
             },
             {
-              "Id": 113,
+              "Id": 115,
               "StartLine": 36,
               "EndLine": 36,
               "StartColumn": 17,
@@ -4032,7 +4399,7 @@
               "Instruction": "IL_0157: ldarg "
             },
             {
-              "Id": 114,
+              "Id": 116,
               "StartLine": 38,
               "EndLine": 38,
               "StartColumn": 17,
@@ -4043,7 +4410,7 @@
               "Instruction": "IL_0173: ldarg "
             },
             {
-              "Id": 115,
+              "Id": 117,
               "StartLine": 40,
               "EndLine": 40,
               "StartColumn": 17,
@@ -4058,7 +4425,7 @@
         "blog/Exceptions/HttpStatusCodeExceptionMiddlewareExtensions.cs": {
           "Instructions": [
             {
-              "Id": 116,
+              "Id": 118,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 13,
@@ -4328,10 +4695,36 @@
             }
           ]
         },
-        "blog/Model/CategoryModel.cs": {
+        "blog/Model/CategoryListModel.cs": {
           "Instructions": [
             {
               "Id": 60,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 51,
+              "EndColumn": 55,
+              "Class": "blog.Model.CategoryListModel",
+              "Method": "get_Categories",
+              "MethodFullName": "System.Collections.Generic.IEnumerable`1<blog.Domain.Category> blog.Model.CategoryListModel::get_Categories()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 61,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 56,
+              "EndColumn": 60,
+              "Class": "blog.Model.CategoryListModel",
+              "Method": "set_Categories",
+              "MethodFullName": "System.Void blog.Model.CategoryListModel::set_Categories(System.Collections.Generic.IEnumerable`1<blog.Domain.Category>)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "blog/Model/CategoryModel.cs": {
+          "Instructions": [
+            {
+              "Id": 62,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 25,
@@ -4342,7 +4735,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 61,
+              "Id": 63,
               "StartLine": 9,
               "EndLine": 9,
               "StartColumn": 30,
@@ -4353,9 +4746,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 62,
-              "StartLine": 12,
-              "EndLine": 12,
+              "Id": 64,
+              "StartLine": 13,
+              "EndLine": 13,
               "StartColumn": 30,
               "EndColumn": 34,
               "Class": "blog.Model.CategoryModel",
@@ -4364,9 +4757,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 63,
-              "StartLine": 12,
-              "EndLine": 12,
+              "Id": 65,
+              "StartLine": 13,
+              "EndLine": 13,
               "StartColumn": 35,
               "EndColumn": 39,
               "Class": "blog.Model.CategoryModel",
@@ -4375,9 +4768,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 64,
-              "StartLine": 15,
-              "EndLine": 15,
+              "Id": 66,
+              "StartLine": 17,
+              "EndLine": 17,
               "StartColumn": 37,
               "EndColumn": 41,
               "Class": "blog.Model.CategoryModel",
@@ -4386,9 +4779,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 65,
-              "StartLine": 15,
-              "EndLine": 15,
+              "Id": 67,
+              "StartLine": 17,
+              "EndLine": 17,
               "StartColumn": 42,
               "EndColumn": 46,
               "Class": "blog.Model.CategoryModel",
@@ -4401,7 +4794,7 @@
         "blog/Model/CommentListModel.cs": {
           "Instructions": [
             {
-              "Id": 66,
+              "Id": 68,
               "StartLine": 7,
               "EndLine": 7,
               "StartColumn": 53,
@@ -4412,7 +4805,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 67,
+              "Id": 69,
               "StartLine": 7,
               "EndLine": 7,
               "StartColumn": 58,
@@ -4427,7 +4820,7 @@
         "blog/Model/CommentModel.cs": {
           "Instructions": [
             {
-              "Id": 68,
+              "Id": 70,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 25,
@@ -4438,7 +4831,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 69,
+              "Id": 71,
               "StartLine": 8,
               "EndLine": 8,
               "StartColumn": 30,
@@ -4449,9 +4842,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 70,
-              "StartLine": 12,
-              "EndLine": 12,
+              "Id": 72,
+              "StartLine": 13,
+              "EndLine": 13,
               "StartColumn": 31,
               "EndColumn": 35,
               "Class": "blog.Model.CommentModel",
@@ -4460,9 +4853,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 71,
-              "StartLine": 12,
-              "EndLine": 12,
+              "Id": 73,
+              "StartLine": 13,
+              "EndLine": 13,
               "StartColumn": 36,
               "EndColumn": 40,
               "Class": "blog.Model.CommentModel",
@@ -4471,9 +4864,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 72,
-              "StartLine": 16,
-              "EndLine": 16,
+              "Id": 74,
+              "StartLine": 17,
+              "EndLine": 17,
               "StartColumn": 31,
               "EndColumn": 35,
               "Class": "blog.Model.CommentModel",
@@ -4482,9 +4875,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 73,
-              "StartLine": 16,
-              "EndLine": 16,
+              "Id": 75,
+              "StartLine": 17,
+              "EndLine": 17,
               "StartColumn": 36,
               "EndColumn": 40,
               "Class": "blog.Model.CommentModel",
@@ -4493,9 +4886,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 74,
-              "StartLine": 19,
-              "EndLine": 19,
+              "Id": 76,
+              "StartLine": 20,
+              "EndLine": 20,
               "StartColumn": 33,
               "EndColumn": 37,
               "Class": "blog.Model.CommentModel",
@@ -4504,9 +4897,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 75,
-              "StartLine": 19,
-              "EndLine": 19,
+              "Id": 77,
+              "StartLine": 20,
+              "EndLine": 20,
               "StartColumn": 38,
               "EndColumn": 42,
               "Class": "blog.Model.CommentModel",
@@ -4515,9 +4908,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 76,
-              "StartLine": 21,
-              "EndLine": 21,
+              "Id": 78,
+              "StartLine": 22,
+              "EndLine": 22,
               "StartColumn": 32,
               "EndColumn": 36,
               "Class": "blog.Model.CommentModel",
@@ -4526,9 +4919,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 77,
-              "StartLine": 21,
-              "EndLine": 21,
+              "Id": 79,
+              "StartLine": 22,
+              "EndLine": 22,
               "StartColumn": 37,
               "EndColumn": 41,
               "Class": "blog.Model.CommentModel",
@@ -4537,9 +4930,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 78,
-              "StartLine": 23,
-              "EndLine": 23,
+              "Id": 80,
+              "StartLine": 24,
+              "EndLine": 24,
               "StartColumn": 33,
               "EndColumn": 37,
               "Class": "blog.Model.CommentModel",
@@ -4548,9 +4941,9 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 79,
-              "StartLine": 23,
-              "EndLine": 23,
+              "Id": 81,
+              "StartLine": 24,
+              "EndLine": 24,
               "StartColumn": 38,
               "EndColumn": 42,
               "Class": "blog.Model.CommentModel",

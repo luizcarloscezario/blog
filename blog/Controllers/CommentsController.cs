@@ -94,11 +94,9 @@ namespace blog.Controllers
 
             var article = await _articleRepository.GetAsync(articleId);
 
-            if (article == null)
-            {
+            if(article == null)
                 return NotFound();
-            }
-
+           
             var comment = new Comment
             {
                 ArticleId = articleId,
@@ -123,5 +121,6 @@ namespace blog.Controllers
 
             return Created($"articles/{articleId}/comments/{comment.Id}", result);
         }
+        
     }
 }

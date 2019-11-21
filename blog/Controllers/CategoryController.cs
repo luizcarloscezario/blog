@@ -43,12 +43,12 @@ namespace blog.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public  async Task<IActionResult>  GetAll()
         {
-            var listCategorys =  _repository.Query().ToList();
+            var listCategorys = await  _repository.Query().ToListAsync();
             return Ok(listCategorys);
         }        
-
+    
         
         /// Post Categories
         [HttpPost]
