@@ -11,14 +11,11 @@ namespace blog.Domain
         public string Body { get; set; }
 
         public string Footer { get; set; }
-
-        [Required]        
+             
         public int ArticleId { get; set; }
 
         public Article Article { get; set; }
 
-        private class RequiredAttribute : Attribute
-        {
-        }
+        
     }
 }

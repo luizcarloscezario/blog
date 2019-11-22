@@ -132,16 +132,15 @@ namespace blog.Controllers
         {
             if (idArticle > 0)
             {
-                
 
-                var medias = _mediaArticleRepository.Query().Where(x => x.Article.Id == idArticle).Select(y => y.Media).ToList();  
-                if(medias.Count() > 0) 
-                {                 
+                var medias = _mediaArticleRepository.Query().Where(x => x.Article.Id == idArticle).Select(y => y.Media).ToList();
+                if (medias.Count() > 0)
+                {
 
                     return Ok(medias);
-                }            
+                }
 
-                return Ok(  );
+                return Ok();
             }
             else
             {
@@ -172,20 +171,20 @@ namespace blog.Controllers
             var media = await _mediaRepository.GetAsync(idMedia);
 
             if (media != null)
-            {  
-                var mediaArticle = _mediaArticleRepository.Query().Where(x=> x.Media.Id == idMedia ).FirstOrDefault();
-                if(mediaArticle != null)                  
-                   await _mediaArticleRepository.DeleteAsync(mediaArticle.Id);
+            {
+                var mediaArticle = _mediaArticleRepository.Query().Where(x => x.Media.Id == idMedia).FirstOrDefault();
+                if (mediaArticle != null)
+                    await _mediaArticleRepository.DeleteAsync(mediaArticle.Id);
 
-                
-                await _mediaRepository.DeleteAsync(idMedia);                
+
+                await _mediaRepository.DeleteAsync(idMedia);
                 System.IO.File.Delete($"{media.Path}/{media.Name}");
                 return Ok();
             }
             else
             {
                 return BadRequest();
-            }            
+            }
 
         }
     }
