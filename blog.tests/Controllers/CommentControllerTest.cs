@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,7 +8,6 @@ using blog.Model;
 using blog.Repositories;
 using FizzWare.NBuilder;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Moq;
 using Xunit;
 
@@ -88,9 +87,11 @@ namespace blog.tests.Controllers
         [Fact]
         public async Task Get_ReturnEmptyList()
         {
-            //Arrange           
+            //Arrange   
+            var listComment = new List<Comment>();      
+
            _articleRepositoryMock.Setup(x => x.GetAsync(1)).Returns(Task.FromResult<Article>(Builder<Article>.CreateNew().Build()));
-            _commentRepositoryMock.Setup(x => x.Query()).Returns( Enumerable.Empty<Comment>().AsQueryable());
+            _commentRepositoryMock.Setup(x => x.Query()).Returns(listComment.AsQueryable());
 
             //Act
             var result = await _commentsController.Get(1);
@@ -112,7 +113,7 @@ namespace blog.tests.Controllers
         public async Task Get_ReturnListComments()
         {
             //Arrange
-            var listCommentDbSetMock = Builder<Comment>.CreateListOfSize(10).Build().ToAsyncDbSetMock();
+            var listCommentDbSetMock = Builder<Comment>.CreateListOfSize(10).All().With(x => x.ArticleId = 1).Build().ToAsyncDbSetMock();
             _articleRepositoryMock.Setup(x => x.GetAsync(1)).Returns(Task.FromResult<Article>(Builder<Article>.CreateNew().Build()));
             _commentRepositoryMock.Setup(x => x.Query()).Returns(listCommentDbSetMock.Object);
 

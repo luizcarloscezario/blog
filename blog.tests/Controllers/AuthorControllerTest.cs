@@ -33,7 +33,7 @@ namespace blog.tests.Controllers
         public async Task GetReturnsAuthorWithSameId()
         {
             //Arrange
-            _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().With(x=> x.Id==1).Build()));
+            _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().With(x=> x.Id = 1).Build()));
 
             //Act
             var result = await _authorController.Get(1);
@@ -140,22 +140,23 @@ namespace blog.tests.Controllers
             //Arrange                      
             
            _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().With(x=> x.Name = "teste")
-                                                                                                                     .With(x=> x.Id = 2).Build()));
+                                                                                                                     .With(x=> x.Id = 1).Build()));
 
 
             //Act
-            var result = await _authorController.Put(2, Builder<AuthorModel>.CreateNew().Build());         
+            var result = await _authorController.Put(1, Builder<AuthorModel>.CreateNew().Build());         
             
 
-            //Assert
-            
+            //Assert            
             Assert.NotNull(result);
 
-            Assert.IsType<AcceptedResult>(result);            
-            var contentResult = result as AuthorModel;            
+            Assert.IsType<AcceptedResult>(result);    
+            var objResult = result as AcceptedResult;
 
+                    
+            var contentResult = objResult.Value as AuthorModel;  
             Assert.NotNull(contentResult);                
-            Assert.Equal(2, contentResult.Id);
+            Assert.Equal(1, contentResult.Id);
             
         }
 

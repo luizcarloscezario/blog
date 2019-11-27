@@ -34,7 +34,7 @@ namespace blog.Controllers
                 return NotFound();
             }
 
-            var comments = await _commentRepository.Query().ToListAsync();
+            var comments =  _commentRepository.Query().Where(x=> x.ArticleId == articleId).ToList();
 
             var result = new CommentListModel
             {

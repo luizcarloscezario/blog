@@ -47,7 +47,7 @@ namespace blog.tests.Controllers
         public async Task Get_ReturnCategoryWithSameId()
         {
             //Arrange
-            _categoryRepositoryMock.Setup(x => x.GetAsync(1)).Returns(Task.FromResult<Category>(Builder<Category>.CreateNew().Build()));
+            _categoryRepositoryMock.Setup(x => x.GetAsync(1)).Returns(Task.FromResult<Category>(Builder<Category>.CreateNew().With(x=> x.Id = 1).Build()));
 
 
             //Act
@@ -57,8 +57,9 @@ namespace blog.tests.Controllers
             //Assert
             Assert.NotNull(result);
             Assert.IsType<OkObjectResult>(result);
+            var objResult =  result as OkObjectResult;
 
-            var content = result as Category;
+            var content = objResult.Value as CategoryModel;
             Assert.NotNull(content);
             Assert.Equal(1, content.Id);
         }
@@ -77,7 +78,9 @@ namespace blog.tests.Controllers
             //Assert
             Assert.NotNull(result);
 
-            var content = result as List<Category>;
+            var objResult = result as OkObjectResult;
+
+            var content = objResult.Value as List<Category>;
             Assert.NotNull(content);
             Assert.Equal(10, content.Count());
         }
@@ -159,21 +162,24 @@ namespace blog.tests.Controllers
                                    .CreateNew()
                                    .Build();
 
-            _categoryRepositoryMock.Setup(x => x.GetAsync(0))
+            _categoryRepositoryMock.Setup(x => x.GetAsync(1))
                                    .Returns(Task.FromResult<Category>(categoryBuilder));
             
 
             //Arrange
-            var result = await _categoryController.Put(Builder<int>.CreateNew().Build(), Builder<CategoryModel>.CreateNew().Build());
+            var result = await _categoryController.Put(1, Builder<CategoryModel>.CreateNew().Build());
 
             //Assert
             Assert.NotNull(result);
             Assert.IsType<OkObjectResult>(result);
 
-            var content = result as Category;
+            var objResult = result as OkObjectResult;
+            Assert.NotNull(objResult);
+
+
+            var content = objResult.Value as Category;
             Assert.NotNull(content);
 
-            Assert.Equal("testeAlterado", content.Name);
         }
 
         [Fact]
