@@ -94,7 +94,7 @@ namespace blog.Controllers
         [HttpPut]
         public async Task<IActionResult> Put(int id, [FromBody]AuthorModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid || model == null)
             {
                 return BadRequest();
             }

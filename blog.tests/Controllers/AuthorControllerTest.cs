@@ -33,7 +33,7 @@ namespace blog.tests.Controllers
         public async Task GetReturnsAuthorWithSameId()
         {
             //Arrange
-            _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().Build()));
+            _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().With(x=> x.Id==1).Build()));
 
             //Act
             var result = await _authorController.Get(1);
@@ -144,10 +144,11 @@ namespace blog.tests.Controllers
 
 
             //Act
-            var result = await _authorController.Put(2, new AuthorModel(){Id = 2, Name = "teste!", Description= ""});         
+            var result = await _authorController.Put(2, Builder<AuthorModel>.CreateNew().Build());         
             
 
             //Assert
+            
             Assert.NotNull(result);
 
             Assert.IsType<AcceptedResult>(result);            
@@ -163,13 +164,13 @@ namespace blog.tests.Controllers
         [Fact]
         public async Task PutReturnBadRequestResult()
         {
-            //Arrange                      
-            
+            //Arrange                                  
            _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().With(x=> x.Name = "teste").Build()));
 
 
             //Act
-            var result = await _authorController.Put(2, new AuthorModel(){Id = 2, Name = "teste!", Description= ""});         
+            // var result = await _authorController.Put(2, new AuthorModel(){Id = 2, Name = "teste!", Description= ""});         
+            var result = await _authorController.Put(-2, null);
             
 
             //Assert
@@ -181,30 +182,7 @@ namespace blog.tests.Controllers
         }
 
 
-        // [Fact]
-        // public async Task PutReturnNotFoundResult()
-        // {
-        //     //Arrange                      
-            
-        // //    _authorRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Author>(Builder<Author>.CreateNew().With(x=> x.Name = "teste").Build()));
-
-
-        //     //Act
-        //     // var result = await _authorController.Put(0, new AuthorModel(){Id = 0, Name = "teste!", Description= "", Media=""});         
-            
-            
-
-        //     // //Assert
-        //     // Assert.NotNull(result);
-
-        //     // Assert.IsType<NotFoundResult>(result);            
-        //     // var contentResult = result as AuthorModel;            
-
-        //     // Assert.NotNull(contentResult);                
-        //     // Assert.Equal(2, contentResult.Id);
-            
-        // }
-
+        
 
         [Fact]
         public async Task DeleteReturnNotFoundResult()

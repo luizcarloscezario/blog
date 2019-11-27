@@ -24,10 +24,10 @@ namespace blog.Controllers
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
-        {            
-            var  categoy = await _repository.GetAsync(id);                
-          
-            if(categoy == null)
+        {
+            var categoy = await _repository.GetAsync(id);
+
+            if (categoy == null)
             {
                 return NotFound();
             }
@@ -43,18 +43,18 @@ namespace blog.Controllers
         }
 
         [HttpGet]
-        public  async Task<IActionResult>  GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var listCategorys = await  _repository.Query().ToListAsync();
+            var listCategorys = await _repository.Query().ToListAsync();
             return Ok(listCategorys);
-        }        
-    
-        
+        }
+
+
         /// Post Categories
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]CategoryModel model)
         {
-           if (!ModelState.IsValid)
+            if (!ModelState.IsValid || model == null)
             {
                 return BadRequest(ModelState);
             }
@@ -74,18 +74,16 @@ namespace blog.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody]CategoryModel model)
         {
-            
+
             if (!ModelState.IsValid)
-            {
                 return BadRequest(ModelState);
-            }
 
-            var categoy =  await _repository.GetAsync(id);
 
-            if(categoy == null )  
-            {
+            var categoy = await _repository.GetAsync(id);
+
+            if (categoy == null)
                 return NotFound();
-            }
+
 
             categoy.Name = model.Name;
             categoy.Description = model.Description;
@@ -101,7 +99,7 @@ namespace blog.Controllers
         public async Task<IActionResult> Delete(int id)
         {
 
-            var category = _repository.GetAsync(id);
+            var category = await _repository.GetAsync(id);
 
             if (category == null)
             {
@@ -112,6 +110,6 @@ namespace blog.Controllers
 
             return Ok();
         }
-        
+
     }
 }

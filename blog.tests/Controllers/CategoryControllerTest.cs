@@ -22,8 +22,8 @@ namespace blog.tests.Controllers
         private Mock<ICategoryRepository> _categoryRepositoryMock = new Mock<ICategoryRepository>();
 
         public CategoryControllerTest()
-        {   
-            _categoryController = new CategoryController(_categoryRepositoryMock.Object);            
+        {
+            _categoryController = new CategoryController(_categoryRepositoryMock.Object);
         }
 
 
@@ -31,7 +31,7 @@ namespace blog.tests.Controllers
         public async Task Get_NotFound()
         {
             //Arrange
-            _categoryRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Category>(null));
+            _categoryRepositoryMock.Setup(x => x.GetAsync(1)).Returns(Task.FromResult<Category>(null));
 
 
             //Act
@@ -43,37 +43,35 @@ namespace blog.tests.Controllers
             Assert.IsType<NotFoundResult>(result);
         }
 
-
         [Fact]
         public async Task Get_ReturnCategoryWithSameId()
         {
             //Arrange
             _categoryRepositoryMock.Setup(x => x.GetAsync(1)).Returns(Task.FromResult<Category>(Builder<Category>.CreateNew().Build()));
 
-            
+
             //Act
             var result = await _categoryController.Get(1);
-            
-            
+
+
             //Assert
             Assert.NotNull(result);
             Assert.IsType<OkObjectResult>(result);
-            
+
             var content = result as Category;
             Assert.NotNull(content);
             Assert.Equal(1, content.Id);
         }
 
-
         [Fact]
         public async Task Get_ReturnListCategories()
-        {   
+        {
             //Arrange
-             var categoryDbSetMock = Builder<Category>.CreateListOfSize(10).Build().ToAsyncDbSetMock();
-            _categoryRepositoryMock.Setup(x=> x.Query()).Returns(categoryDbSetMock.Object);   
+            var categoryDbSetMock = Builder<Category>.CreateListOfSize(10).Build().ToAsyncDbSetMock();
+            _categoryRepositoryMock.Setup(x => x.Query()).Returns(categoryDbSetMock.Object);
 
             //Act
-            var result = await  _categoryController.GetAll();
+            var result = await _categoryController.GetAll();
 
 
             //Assert
@@ -84,53 +82,47 @@ namespace blog.tests.Controllers
             Assert.Equal(10, content.Count());
         }
 
-
         [Fact]
         public async Task Post_CreateCategory()
         {
             //Arrange
-            var categoryDbSetMock = Builder<CategoryModel>.CreateNew()                                                        
-                                                          .Build();             
+            var categoryDbSetMock = Builder<CategoryModel>.CreateNew()
+                .With(c => c.Name = "Programação")
+                .Build();
 
 
             //Act
-            var result = await _categoryController.Post(new CategoryModel());
+            var result = await _categoryController.Post(categoryDbSetMock);
 
-            //Assert
-            // Assert.NotNull(result);
+            
+            Assert.NotNull(result);
             Assert.IsType<CreatedResult>(result);
-
-            var content = result as CategoryModel;
-            Assert.NotNull(content);
-            Assert.Equal("Programação", content.Name);
+          
 
         }
 
-
         [Fact]
-        public async Task Post_BadRequest()
+        public async Task Post_BadRequest()         
         {
             //Arrange
-            var categoryDbSetMock = Builder<CategoryModel>.CreateNew().With(x=> x.Name = string.Empty).Build();
+            var categoryDbSetMock = Builder<CategoryModel>.CreateNew().With(x => x.Name = string.Empty).Build();
 
             //Act
 
-            var result = await _categoryController.Post(new CategoryModel());
+            var result = await _categoryController.Post(null);
 
             //Assert
             Assert.NotNull(result);
-            Assert.IsType<BadRequestResult>(result);
+            Assert.IsType<BadRequestObjectResult>(result);
 
         }
-
-
 
         [Fact]
         public async Task Put_NotFound()
         {
             //Act
             //Id = 1
-            var parameter = Builder<CategoryModel>.CreateNew().With(x=> x.Name = "teste").Build();
+            var parameter = Builder<CategoryModel>.CreateNew().With(x => x.Name = "teste").Build();
 
             //Arrange
             var result = await _categoryController.Put(2, parameter);
@@ -138,10 +130,8 @@ namespace blog.tests.Controllers
             //Assert
             Assert.NotNull(result);
 
-            Assert.IsType<NotFoundResult>(result);
+            Assert.IsType<NotFoundResult>(result);      
         }
-
-
 
         [Fact]
         public async Task Put_BadRequest()
@@ -149,7 +139,7 @@ namespace blog.tests.Controllers
             //Act
             //Id = 1
             var parameter = Builder<CategoryModel>.CreateNew()
-                                                  .With(x=> x.Name = string.Empty)
+                                                  .With(x => x.Name = string.Empty)
                                                   .Build();
 
             //Arrange
@@ -164,20 +154,17 @@ namespace blog.tests.Controllers
         [Fact]
         public async Task Put_OkResult()
         {
-            //Act
-            _categoryRepositoryMock.Setup(x=> x.GetAsync(1))
-                                   .Returns(Task.FromResult<Category>(Builder<Category>
-                                   .CreateNew().With(x=> x.Name = "teste")
-                                   .Build()));
+            //Act            
+            var categoryBuilder = Builder<Category>
+                                   .CreateNew()
+                                   .Build();
 
-            // var categoryDbSetMock = Builder<CategoryModel>.CreateNew()
-            //                                               .With(x=> x.Id = 1)
-            //                                               .With(y=> y.Name="testeAlterado")
-            //                                               .Build();
-            var categoryDbSetMock = new CategoryModel(){Id = 1 , Name = "testeAlterado"};
+            _categoryRepositoryMock.Setup(x => x.GetAsync(0))
+                                   .Returns(Task.FromResult<Category>(categoryBuilder));
+            
 
             //Arrange
-            var result = await _categoryController.Put(1, categoryDbSetMock );
+            var result = await _categoryController.Put(Builder<int>.CreateNew().Build(), Builder<CategoryModel>.CreateNew().Build());
 
             //Assert
             Assert.NotNull(result);
@@ -187,19 +174,17 @@ namespace blog.tests.Controllers
             Assert.NotNull(content);
 
             Assert.Equal("testeAlterado", content.Name);
-
-            
-
         }
-
 
         [Fact]
         public async Task Delete_NotFound()
         {
-            //Act            
+            //Act   
+            var invalidId = -2;
+        //   _categoryRepositoryMock.Setup(_categoryController.Delete(invalidId)).Returns(Task.FromResult);
 
             //Arrange
-            var result =  await _categoryController.Delete(-2);            
+            var result = await _categoryController.Delete(invalidId);
 
             //Assert
             Assert.NotNull(result);
@@ -211,14 +196,15 @@ namespace blog.tests.Controllers
         public async Task Delete_OkResult()
         {
             //Act
-            
+            _categoryRepositoryMock.Setup(x=> x.GetAsync(1)).Returns(Task.FromResult<Category>(Builder<Category>.CreateNew().With(c => c.Id =1).Build()));
+
             //Arrange
             var result = await _categoryController.Delete(1);
-            
+
             //Assert
             Assert.NotNull(result);
             Assert.IsType<OkResult>(result);
         }
-        
+
     }
 }
